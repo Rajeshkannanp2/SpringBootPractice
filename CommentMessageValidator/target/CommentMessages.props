@@ -1,0 +1,848 @@
+UncitedCommentDefaultMessage=Uncited references: This section comprises references that occur in the reference list but not in the body of the text. Please position each reference in the text or, alternatively, delete it. Any reference not dealt with will be retained in this section. Thank you.
+UncitedCommentWithRefInMessage=Uncited reference: %s is not cited in text; please indicate where a citation should appear or delete it from the reference list.
+UnlistedCommentDefaultMessage=The following citation \"%s\" is unlisted.
+UnlistedCommentWithRefInMessage=Missing reference: %s is not listed in the \u2018References\u2019 section; please provide complete reference details.
+authorDegreeShouldBePresent=Please provide professional degrees (e.g., PhD, MD) for the author%s \"%s\".
+MandatoryProfessionalTitleMessage=Please provide Professional job titles (e.g., Professor, Asst Professor) for the author%s \"%s\" as it is mandatory as per journal style.
+authorDegreeMissingForFewAuthors=Please provide no more than two qualifications for the author%s \"%s\".
+SectionaHeadings=As per journal style, all %s should ONLY have the following numbered first level section headings: %s. Please check and amend accordingly.
+checkForCharstyleThatAreMandatoryHighlight=Check for the existence of pagination in the citation. If not, raise an author query.
+checkForCharstyleThatAreMandatory=Please provide the %s for the reference %s.
+addAOrBInYearInRefList=The year in the %s occurrence of %s in the list has been changed to %s.
+AbstractWordCount=%s is not provided in the correct format. Please correct the format based on the following specification: %s %s should not exceed more than %s words. %s
+checkForCharstyleThatAreMandatoryMFC=Please provide the volume number or issue number or page range for the bibliography in Ref(s). %s
+checkForCharstyleThatAreMandatoryMFC_altno=Please provide the volume number, issue number, page range (or article number) for the bibliography in Ref(s). %s
+StructuredAbstract=As per journal style, \u2018Abstract\u2019 should be structured and should have the following 5 headings: Objectives, Design, Methods, Results and Conclusions. Please check and provide the same.
+UnstructuredAbstract=As per journal style, the subheads and casing of Structured abstract should be as follows: Background/Aims, Methods, Results, Conclusion. Please check and take appropriate action.
+StandardizedAbstract=Abstract subheadings should be 'Purpose, Materials and Methods, Results, Conclusions'. Please check.
+StandardizedAbstractWithMethods=Abstract subheadings should be 'Purpose, Methods, Results, Conclusions'. Please check.
+missingMiddleInit=As per style, author names in the author group must have First name/Middle Initial/Surname, i.e. Marc D. Feldman. Please check and provide the complete names for the author(s) \"%s\".
+ExpWithDiffAbbre=The definition \"%s\" has been abbreviated as \"%s\" as well as \"%s\". Please check if the representation should be made consistent in the article.
+highlightSectionOrder=Order of highlights should be \"abstractauthorhighlights\" and \"abstracteditorhighlights\"
+charCountQuery=Highlights should only consist of \"%s\" characters per bullet point, including spaces. The highlights provided are too long; please edit them to meet the requirement.%s
+charCountQueryForcellpress=Journal guidelines limit each highlight to \"%s\" characters or fewer, including spaces. Could you please let me know how to modify the highlights below so that they fit within this guideline? (Please note that the text below may differ from what you had previously submitted as a result of editorial revisions.)
+BulletlistQuery=Highlights should consist of 3 to 5 bullet points. There are \"%s\" bullet points provided. Please edit the highlights to meet the requirement.
+BulletlistQueryMax4= Highlights should consist of a maximum of 4 bullet points. There are \"%s\" bullet points provided. Please edit the highlights to meet the requirement.
+highlightForLabel=Highlights should be a short collection of bullet points. Insert bullet as label.
+roleAndDegreeMandatory=As per style, roles and degrees of corresponding author should be retained in the correspondence field. Please check and raise an author query.
+queryForAbbWithTwoExpansion=Please note that both %s and %s have been abbreviated to %s. Kindly differentiate between the two binomials throughout the article.
+queryForAbbWithThreeExpansion=Please note that %s, %s and %s have been abbreviated to %s. Kindly differentiate between the three binomials throughout the article.
+queryForAbbWithFourExpansion=Please note that %s, %s, %s and %s have been abbreviated to %s. Kindly differentiate between the four binomials throughout the article.
+ISSN-highlightWordsNotInDBWithDot=The corresponding abbreviation for this word is not found in the ISSN database. Hence, check and abbreviate this word in title case with a dot.
+ISSN-highlightWordsNotInDBWithoutDot=The corresponding abbreviation for this word is not found in the ISSN database. Hence, check and abbreviate this word in title case without a dot.
+SuggestionForMissingCorrAddress=Note that there are more than one corresponding author and the correspondence address is not given. Please check and query the author.
+highlightIdenticalAffiliation=This affiliation is a duplicate of affiliation \"%s\". Please delete this and change the citations accordingly.
+FirstAuConsideredAsCorresAuComment=The first author has been considered as the corresponding author. Please verify.
+CorresAuObtainedFromCoverSheet="%s" has been considered as the corresponding author as per the coversheet. Please verify.
+AffNotInSequence=Affiliation designators '%s' provided but the corresponding affiliation is missing. Kindly check and action accordingly.
+insertCommentForMissingCorresPara=Create a correspondingauthor parastyle with label %s and bookmark %s with email: as content 
+insertQueryIfRefIsCitedOnlyInAbstractAndNotElsewhereInTheFile=The reference \"%s\" is cited only in the abstract and not in the text. Please introduce a citation in the text.
+insertQueryIfRefIsCitedOnlyInAbstractAndDeleteCitedRef=This reference citation is also cited in text. Hence, per style, remove it from abstract and reword the sentence accordingly.
+queryFormismatchSectionAHeadings=As per journal style, only fixed headings (1. Introduction, 2. Materials and Supplies, 3. Detailed Methods, 4. Potential Pitfalls and Trouble Shooting) are allowed. Please check and amend as necessary.
+wordCountInFullArticle=Note that the word count limit exceeds 4500 words. Refer the style sheet and proceed accordingly.
+journalExpansionHighlightText=This journal title does not directly match with the abbreviation/expansion in Index Medicus DB. Please check and if appropriate, replace with the below expansion(s) \"%s\", which has been obtained under the search criteria \"%s\".
+journalMultipleExpansionHighlightText=For this journal title, the following expansions \'%s\' match closely in the Index Medius DB. Check and use the appropriate expansion.
+generalSuggestion=This journal title is not found in Index Medicus DB. Please check and use the correct expansion.
+standardTextInLRH=Short title should be in sentence case. Please check.
+CasingSuggestionForLowerCaseReplace=Change to lowercase if appropriate.
+DefaultSuggestionForMRW=Article title should be in title case. First word, nouns, pronouns, adjectives, verbs, and subordinate conjunctions should be capitalized. Lowercase articles, coordinate conjunctions (and, or, for, nor), and all prepositions, unless they are the first or last words of the title. Lowercase the \"to\" in infinitives.
+CasingSuggestionIntoLowerCaseAfterEmDashEndashColon=Change the word after colon/emdash/spaced endash to lowercase if appropriate.
+CasingSuggestionForSentenceCase=Change to sentence case if appropriate.
+CasingSuggestionForTitleCase=Change to title case if appropriate.
+CasingSuggestionForUpperCase=Change to upper case if appropriate.
+checkIfAbbreviationOrPrepositionWithDotMessage=(1) Delete if this is a preposition/conjunction and (2) add a dot if an abbreviation.
+checkIfAbbreviationOrPrepositionWithoutDotMessage=(1) Delete if this is a preposition/conjunction and (2) remove dot if an abbreviation.
+checkIfAbbreviationOrPrepositionMessage=Delete if this is a preposition/conjunction
+missingreflabels=References are not in sequence. Please check
+COIDefaultStatementNoAuChk=No benefits in any form have been received or will be received from a commercial party related directly or indirectly to the subject of this article.
+commentAllAuFootnote=Insert the standard statement ['All authors have none to declare.'] as paragraph with 'Conflicts of interest' as 'sectiona' if all authors have no conflict of interest.
+commentSingleAuFootnote=Insert the standard statement ['The author has none to declare.'] as paragraph with 'Conflicts of interest' as 'sectiona' if the author has no conflict of interest.
+commentNoAuChkFootnote=Insert the standard statement ['No benefits in any form have been received or will be received from a commercial party related directly or indirectly to the subject of this article.'] as paragraph with 'Conflicts of interest' as 'sectiona' if the author(s) has/have no conflict of interest.
+commentForDrugDosage=If there are any drug dosages in your article, please verify them and indicate that you have done so by initialing this query.
+CasingSuggestionForLowerCaseReplaceInReference=Change to lowercase if appropriate.
+commentForSectionNumbering=In sentence beginning \u201C_______\,\u201D please confirm that \u201C%s %s\u201D refers to %s.
+highlightCommentForSectionNumbering=Replace \'%s %s%s\' with the respective section/subsection citation and query the author to check.
+highlightCommentToChangeInitialsInAck=If this represents the initials of the author, then it should appear closed up with dots, e.g., D.A.W.
+highlightCommentForWhiteSquare=As per MFC, open square present at the end of enunciation is allowed. Follow author usage and do not delete.
+highlightCommentForwithoutWhiteSquare=As per MFC, open square present at the end of enunciation is allowed if the author provides (follow author). Check for missing open square in the manuscript and insert if present.
+unlistedVettedDegree=Degree abbreviations are verified against a list of known degrees. %s %s not yet on this list. Please verify these degrees.
+highlightCommentForMissingEqnLink=Equations are numbered according to the Appendix designation: (A1), (A2), ... for those in the first appendix section; (B1), (B2) ...  for the second; (C1), (C2), ... for those in the third, etc. Equation '%s' is not cited in text. Check and raise an author query.
+highlightCommentForMissingEqnLabel=Equations are numbered according to the Appendix designation: (A1), (A2), ... for those in the first appendix section; (B1), (B2) ...  for the second; (C1), (C2), ... for those in the third, etc. Equation '%s' is cited in text but its equation is missing. Check and raise an author query.
+highlightCommentForSetRanges=Ranges should be set as, eg, Eqs. (A1)-(A3) (ndash) in the middle of a sentence and Equations (A1)-(A3) in the beginning of a sentence, with the equations numbered according to the Appendix designation: (A1), (A2), ... for those in the first appendix section; (B1), (B2) ...  for the second; (C1), (C2), ... for those in the third, etc.
+highlightCommentForSetRangesForEquations=Ranges should be set as, eg, Eqs. (A1)-(A3) (ndash) if abbreviated and Equations (A1)-(A3) if expanded, with the equations numbered according to the Appendix designation: (A1), (A2), ... for those in the first appendix section; (B1), (B2) ...  for the second; (C1), (C2), ... for those in the third, etc.
+insertQueryIfAccessDateMissing=CE: Please provide complete accessed date in Ref(s). %s.
+standardArticleFootnoteText=Inclusion of any material in this section does not imply endorsement by the Society for Nutrition Education and Behavior. Evaluative comments contained in the reviews reflect the views of the authors. Review abstracts are either prepared by the reviewer or extracted from the product literature. Prices quoted are those provided by the publishers at the time materials were submitted. They may not be current when the review is published. Reviewers receive a complimentary copy of the resource as part of the review process.
+AbstractGraphicalGrtThan250=The first line of the Abstract has been inserted as the Graphical Abstract text; however, it currently exceeds the space available for the published version. Please check that the text is suitable and trim it so that it is less than 250 characters (including spaces).
+AbstractGraphicallessThan250=Please check that the inserted Graphical Abstract text is suitable. Please ensure that the text is no longer than 250 characters (including spaces).
+AbstractGraphicalntEqGrtThan250=The Graphical Abstract text currently exceeds the space available for the published version. Please trim the text so that it is less than 250 characters (including spaces).
+AbstractGraphicallessThan250query=replies=\u0022Yes | No\u0022 type=\u0022boolean\u0022: Is the inserted Graphical Abstract text suitable? If you provide replacement text, please ensure that it is no longer than 250 characters (including spaces).
+AffiliationMissingQuery_1=Please provide address details and affiliations for all authors listed.
+AffiliationMissingQuery_2=replies=\u0022Yes | No\u0022 type=\u0022boolean\u0022: Are all of the author addresses and affiliation links correct?.
+commentMsgForMandontaryCharstyle=Please provide full details for %s. %s.
+commentForMissingBoxSectionaMissing='Background' and 'Translational Significance' sections are mandatory for 'At a glance commentary'.
+SuggestionForMorethan100Words='At a Glance Commentary' section should consist of approximately 100 words. Please check and amend the section accordingly.
+queryForMissingDetextBoxCaption=The 'At a Glance Commentary' textbox is must for section 'Original article'. Please provide it with the two headings 'Background' and 'Translational Significance'.
+suggestionToMoveText='At a Glance Commentary' should be placed before first paragraph.
+UncitedCommentWithCitationInMessage=%s %s %s provided, but not cited in the text. Please provide a citation for %s.
+UncitedFigureAndTableCommentText=%s %s has not been mentioned in the article, please add a citation within the text. Note that Figures and Tables must appear in sequence. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA74' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA74' &gt;https://www.frontiersin.org.cn/authors-proof-support/#QA74 &lt;/link&gt;
+FigTblNotSequence=Figures and tables were not sequentially cited in the text. It should have been renumbered both in the text and in the artwork. Please check, and correct if necessary.
+FigNotSequence=Figures are not sequentially cited in the text. It should be renumbered both in the text and in the artwork. Please check, and correct if necessary.
+TblNotSequence=Tables are not sequentially cited in the text. It should be renumbered both in the text and in the label. Please check, and correct if necessary.
+BoxNotSequence=Boxes are not sequentially cited in the text. It should have been renumbered both in the text and in the label. Please check, and correct if necessary.
+PageRangeForProceeding=Check and provide the paper number for later proceedings and page range for earlier proceedings.
+PageRangeMissing=Check and provide paper number or page range.
+BoxNotSequence=Boxes are not sequentially cited in the text. It should have been renumbered both in the text and in the label. Please check, and correct if necessary.
+commentForUrl=Citations are not allowed in abstract. Move '%s' to text.
+commentForRefInTextAndNotInText=Citations are not allowed in abstract. Reference(s) '%s' is/are cited in text and '%s' is/are missing. Move all to text.
+commentForRefInText=Citations are not allowed in abstract. Reference(s) '%s' is/are cited in text. Move all to text.
+commentForRefNotInText=Citations are not allowed in abstract. Reference(s) '%s' is/are missing. Move all to text.
+commentForFigTblNotInAbstract=Citations are not allowed in abstract. Move '%s' to text.
+commentforDirectFigTblNotInAbstract=Citations are not allowed in abstract.
+commentforFigTblAuthorQuery=Citations are not allowed in abstract. Mention \"%s%s\" in text.
+commentforIndirectFigTblAuthorQuery=Citation \"%s%s\" is moved to text, as citations are not allowed in abstract. Please check.
+commentForExpOrAbbreNotInAbstract=Please check the edit made to the abbreviation \"%s\" in the article title.
+commentForGermanFunding=Text has been added to your acknowledgments because we have identified that the corresponding author of this paper is affiliated to a Max Planck institute. We have an open access agreement with the Max Planck Society (Max-Planck-Gesellschaft), and under this agreement they will automatically cover the article processing charge (APC) for eligible authors. Please do not request to remove this text or change the affiliation details of the eligible corresponding author unless you confirm to us that you wish to opt out of this agreement.
+commentForMissingCitationRSC_Single= A citation to %s has been added here, please check that the placement of this citation is suitable. If the location is not suitable, please indicate where in the text the citation should be inserted.
+commentForMissingCitationRSC_Multiple= Citations to %s have been added, please check that the placement of these citations is suitable. If the locations are not suitable, please indicate where in the text the citations should be inserted.
+commentForMissingCitation=Please note that '%s' was/were not cited in the text. Please check that the citation(s) suggested by the copyeditor are in the appropriate place, and correct if necessary.
+queryForMissingCitation=AUTHOR: %s was not cited in the text. An attempt has been made to insert the %s into a relevant point in the text - please check that this is OK. If not, please provide clear guidance on where it should be cited in the text.
+commentForSingularAbbreviation=Use singular abbreviation if appropriate.
+commentForPluralAbbreviation=Use plural abbreviation if appropriate.
+commentForApostropheAbbreviation=Do not use apostrophe in abbreviations.
+commentForCloseMatch=Please delete the citation in the unlisted section if you are changing the citation.
+commentForAuthorInitialsinAck=Change the initials to author name if appropriate (eg, J. Smith).
+commentForMultipleAuthorInitialsinAck=Expand author names (eg, J. Smith). This initial matches with more than one author (ie, %s). Hence check and query if needed.
+commentForFullCapsAuthorNamesinAu=Author names are given in full caps in author group. Check and expand author surnames in acknowledgment (eg, J. Smith).
+commentForUnlistedRef=The citations '%s' has been changed to match the author name/date in the reference list. Please check here and in subsequent occurrences.
+fnCOIsuggestion=Check the use of conflict of interest statement here.
+COIsuggestion=Check for the conflict statement.
+COIsuggestionForArtType=Please check whether it should be treated as COI statement. If yes, introduce in sectiona/paragraph as per style.
+COIhyperlinkSuggestionForArtType=Please provide hyperlink for the url http://rsc.li/conflicts in the introduced COI query.
+COIQueryForArtType=\u25A0\u25A0\u25A0\u25A0<?query Please note that a conflict of interest statement is required for all manuscripts. Please read our policy on Conflicts of interest (http://rsc.li/conflicts) and provide a statement with your proof corrections. If no conflicts exist, please state that &#x201c;There are no conflicts to declare&#x201d;.?>
+COIDummyTextForArtType=In accordance with our policy on Conflicts of interest please ensure that a conflicts of interest statement is included in your manuscript here. Please note that this statement is required for all submitted manuscripts. If no conflicts exist, please state that [\\u201C\\u2018\\u0022\\u0027]There are no conflicts to declare\\.?[\\u201D\\u2019\\u0022\\u0027]
+commentForUnlistedRefAuthor=The citation(s) '%s' has been changed to match the author name in the reference list. Please check here and in subsequent occurrences.
+commentForUnlistedRefDate=The citation(s) '%s' has been changed to match the date in the reference list. Please check here and in subsequent occurrences.
+queryForLessNumberOfAuthor=Please note that as per the journal style, if there are more than '%s' authors/editors, the first '%s' author names are listed followed by '%s' if the author group consists of '%s' authors or fewer, all author names should be listed. Therefore, in Ref(s). '%s'please list all names for up to '%s' authors/editors. For more than '%s' authors/editors, use '%s' after the first '%s' authors/editors.
+EquationMessage=Remove equation number if the following equation has the same label.
+queryForMissingEquation=<comment message="There %s no equation%s numbered %s in your paper. Hence, we have renumbered Eqs. (%s)\u2013(%s) as Eqs. (%s)\u2013(%s). Please check all renumbering carefully throughout."></comment>
+highlightTextForRangesEquation=Renumber the ranges for the following style: Equations should be numbered in sequential order using either Arabic number (eg, 1, 2, 3, ...) or with section prefixes (eg, 1.1, 1.2, ... 2.1, 2.2, ...).
+queryTextForRepeatedEquationNumber=<comment message="There were two equations numbered %s in your paper. Hence, we have changed the repeated number to Eq. (XX) and renumbered all subsequent equations accordingly. Please check all renumbering and update the citations in the text as needed."></comment>
+highlightTextForRepeatedEquationNumber=There were two equations numbered %s. Check and change the repeated number and renumber all subsequent equations accordingly. Also, raise an author query for the change.
+rearrangeFntblWise=Please re-arrange the content of the footnotes. Follow the order: %s.
+fntblWiseCitMissing=Original table footnote citation(s) '%s' missing. Check and raise author query to cite the missing footnote designator and arrange the footnotes sequentially inside the table.
+fntblWiseSizeExceeds=Footnote designators exceed the limit of %s.
+acknowledgementSectionMessage=Check the jss and use the acknowledgements subsection accordingly.
+QueryForSingleLevelHeading=COPYEDITOR:'%s' is the only level %s heading under the level %s heading '%s'. Please check.
+videoCitationMissingQuery=Please indicate where Video%s %s should be cited in the text of your article. The Journal requires that all videos are cited in text. Your article will be placed on hold if the in-text citation is not provided.
+videoCaptionMissingQuery=Please provide the caption for Video%s %s.
+videoCitationAndCaptionMissingQuery=Please provide the caption and citation for Video%s %s.
+privateEmailAddressInOrder=Please check the e-mail address%s of the corresponding author retained here. Replace \"%s\" with a professional e-mail address, as private mail address%s %s not allowed.
+proffesionalEmailAddressInOrder=Please check the e-mail address%s of the corresponding author retained here and correct if necessary.
+queryMissingMailInOrder=Please provide e-mail address for the corresponding author.
+privateMailAdInCorresAuth=Replace '%s' with a professional e-mail address, as private mail address%s %s not allowed.
+deletedPrivateMailAdInCorresAuth=Please note that the email address%s \"%s\" %s been removed since private e-mail address are not allowed.
+AbstractWordCountMoreThan300=Please provide a shorter abstract that does not exceed 300 words. It should be citation-free and self-contained and should include a brief summary of what is being presented in the paper, without detailed introduction of notations.
+SupplCitationWithoutLinkWithoutAppSection=Supplementary terms present. Check for the presence of e-component.
+SupplCitationWithoutLinkWithAppSection=Appendix section is removed as e-component count=0 in order.xml, but supplementary terms are present. Please check.
+queryForFirstSupplementaryCitation=Please provide a concise and descriptive caption for each supplementary material file. This description along with the Supplementary Material files will be available online.
+highlightTextForPvaluePresentInTblFn=Check whether p values can be considered in footnote reordering.
+suggestionForOptionNotSelectedJSS=Option not selected for COI as per jss. Please check.
+StructureOfAbstractSubheads=Please structure the abstract under the subheadings \u201CBackground, Purpose, Research Design, Study Sample, Data Collection and/or Analysis, Results, Conclusions\u201D as per the journal style.
+commentCOIMissingForJSS=Conflict of interest section is mandatory. Use the Conflict of Interest Statement if provided within the text. If not provided within the text, query author.
+commentCOIMissing=Conflict of interest section is mandatory. Use the Conflict of Interest Statement if provided within the text. If not provided within the text, use the Conflict of Interest Policy Form.
+commentVitaeCheckForJSS=Biography is mandatory as per journal style, please raise an author query to provide the author biography and photo.
+commentVitaeCheck=Raise an author query to provide the author biography and photo.
+mscContentForStl=Ref. %s: Can this reference be updated? Please supply details to allow readers to access the reference (for references where page numbers are not yet known, please supply the DOI)
+lastPageMinimumQuery=The page numbers provided for ref. %s appear to be incorrect. Please check and correct as necessary
+commonQueryReference=Ref. %s: Please provide the 
+queryForAbstractauthorhighlights=Please provide highlights for the article (3-5 bullet points, maximum 85 characters, including spaces, per bullet point).
+queryforRomanEquation=Check whether (I), (II), ... should be reactions or equations.
+defaultQueryFordisplayEquation=Equations should be numbered in sequential order using either Arabic number (eg, 1, 2, 3, ...) or with section prefixes (eg, 1.1, 1.2, ... 2.1, 2.2, ...).
+queryForAbstractMissing=<comment message="Please provide missing abstract with the following headings: Background, Purpose, Research Design, Study Sample, Data Collection and/or Analysis, Results, Conclusions."></comment>
+QueryForMandatoryContentInReferences=<comment message="Please check the additional details included in Refs. %s ."></comment>
+suggestionForDOIMissing=doi and article title are missing. Query JM
+suggestionForDOIDeletion=Use doi to introduce additional details.
+wrongAuthorNames=Check and correct the charstyle of the author name(s)
+commentIfGSMissing=Correctly acknowledging the primary funders and grant IDs of your research is important to ensure compliance with funder policies. We could not find any acknowledgement of funding sources in your text. Is this correct?
+defaultQueryFordisplayEquation=Equations should be numbered in sequential order using either Arabic number (eg, 1, 2, 3, ...) or with section prefixes (eg, 1.1, 1.2, ... 2.1, 2.2, ...).
+queryAfterChangingEquation=<comment message="As per style, equation should be numbered sequential in order. Therefore, we have renumbered Eqs. (%s)\u2013(%s) as Eqs. (%s)\u2013(%s). Please check and confirm."></comment>
+orefQueryForReference=Please provide the full details for ref. %s.
+suggestionForAffiliationSequence=The style for affiliation designators is: %s Please check and use the correct designators in the affiliation labels and links. Also, remove identical affiliations if any.
+queryForidenticalAffiliation=Please note that affiliations \"%s\" in your submission seem to be identical. Hence, affiliation(s) \"%s\" has/have been deleted and renumbered accordingly both in the text and in the list. Please check and confirm.
+commentForSectionBased=All data relevant to an article should be made publicly available to readers. The data designated as \"available upon request\" should be deposited in a publicly available repository before publication and indicated in a data deposition footnote. Please let us know if you have concerns or issues with this course of action.
+queryForFlushleft=Per PNAS policy, please rewrite the first sentence of your paper so that it does not begin with an italicized/lowercase/Greek character (to avoid an italicized/lowercase/Greek drop cap in print).
+figure360Suggestion=Check and introduce figure360 standard line for Figure(s) %s.
+MultipletableFootnoteMissing=Text has been provided for footnotes %s, but there do not appear to be corresponding citations in the table. Please indicate suitable location for the footnote citations.
+SingletableFootnoteMissing=Text has been provided for footnote %s, but there does not appear to be a corresponding citation in the table. Please indicate suitable location for the footnote citation.
+queryForidenticalAffiliationWithLabelCitDeleted=Please note that affiliations \"%s\" in your submission seem to be identical. Hence, affiliation(s) \"%s\" has/have been deleted. Please check and confirm.
+queryForMissingPageNumber=Ref. %s: Please provide the page (or article) number(s).
+queryForCitationAfterSectiona=%s1 cited only in the STAR*Methods section. Please insert a citation for %s2 in the main text.
+figurePartLabelPresentSuggestion=Part labels present for Figure. Please sequence as per the requirement. Note pre-citation should not be sequenced.
+tablePartLabelPresentComment=COPYEDITOR: Table(s) is/are split into two parts. This journal does not allow tables to be split into multiple parts with alphabetical designators. So, please check amend any changes that are required.
+floatCitationMissingSuggestion=%s should be cited sequentially. %s(s) %s is(are) uncited/unlisted.
+highlightFullcapsSnm=Author name is in fullcaps. Please check and insert the author initials to the respective affiliations. Also delete the affiliation designators.
+queryWithEmail=Please confirm that the provided email%s %s %s the correct address for official communication, else provide an alternate e-mail address to replace the existing one, because private e-mail addresses should not be used in articles as the address for communication.
+highlightForAlphanumericEquation=Alphanumeric label present. Check for sequential order of equations.
+highlightForNumberWithPrimeEquation=Number+prime label present. Check for sequential order of equations.
+UncitedCommentConsolidatedQuery_single=The reference below does not have a corresponding citation. Could you please indicate where the citation should be placed?&ret;%s.
+UncitedCommentConsolidatedQuery_multiple=The references below do not have corresponding citations. Could you please indicate where the citations should be placed?&ret;%s.
+QueryAuMissingMail=Please provide e-mail address for the author(s) 
+uncitedCommentForFurtherReading=Uncited references have been moved to Further Reading section. Please check.
+QueryAuMissingMail=Please provide e-mail address for the author
+AlertAuMissingMail=All authors must have email address. Check and raise query for missing email address for %s
+queryForMissingWhatisNewDTbox=Please note that \"What is new?\" section is mandatory. Kindly provide the same.
+queryForMissingTitleOfWhatisNewDTbox=Please note that \"What is new\" section should contain the subheadings \"Key findings, What this adds to what was known, and What is the implication and what should change now\" as per journal style. Kindly amend as required.
+highlightForParaPresentBeforeWhatisNewDTbox=Position 'What is new?' textbox before the first paragraph.
+highlightForNotSequenceListTitles=\"What is new\" section should contain only the subheadings \"Key findings, What this adds to what was known, and What is the implication and what should change now\" in order.
+suggestionForSubjectMissingInOrder=Subject Areas keywords is missing in the Order file.
+queryForMissingCorrMailWithCitationPresent=Do you wish to provide an email address for the corresponding author?
+queryForMissingCorrMailWithoutCitation=Do you wish to indicate the corresponding author(s)? If so, please specify the corresponding author(s).
+highlightForMultipleCorrAuthorMailAddress=Introduce asterisk indicator for corresponding author in the author group.
+queryForInsertedCorrCitation=Please check that the correct author has been marked as the corresponding author.
+QueryForBoxTitle=Note that as per journal style, only six points are allowed for learning objectives. Please check and amend as necessary.
+generalQueryForRenumberedEqn=<comment message="Equations have been renumbered for sequencing. Please check all renumbering carefully throughout."></comment>
+commentForMissingCitation_2=%s was not cited in the text. We have inserted a citation in the sentence beginning \u201CXXX.\u201D Please check and reposition if necessary.
+highlightFullcapsSurname=Author name is in fullcaps. Please check and correct.
+highlightNonMedicineAuthorDegree=Please check appropriate author titles for %s.
+queryToCheckAffiliationVersions=Author affiliations will appear differently in the print and online versions of your paper. The PDF shows how the affiliations will present following journal style, whereas the searchable online version will present as follows in order to provide complete unabridged affiliations. Please check the accuracy of the affiliation(s) of each author and make changes as appropriate.
+queryForOrchidMissedAuNames=Please note as per journal style, ORCID information should be provided for all the authors. Please provide ORCID information for the %s "%s".
+bibLabelMissing=Label missing. Check and move the page number to citations.
+numRefInAlphabeticalOrder=Article contains numerical bibliographic references. Please check and edit as per the journal style.
+highlightMultipleCorrParastyle=Corresponding authors parastyle count\u003E1. Please check and follow the style.
+highlightMultiplefnequalFootnote=Use asterisk for equal contribution footnote and to designate the respective authors.
+highlightDoubtfulAuContributors=Use asterisk to designate authors contributed equally.
+highlightFullcapsAuForFnequal=Author name is in fullcaps. Use asterisk to designate authors contributed equally.
+queryForKeywordInArticleTitle_1=Please note that as per journal style, keywords should be different from the one used in the article title. But the keywords section contains the words \u201C%s\u201D which are used in the article title. Kindly check and provide the keywords as per the journal style.
+queryForKeywordInArticleTitle_2=Please note that as per journal style, keywords should be different from the one used in the article title. But the keywords section contains the word \u201C%s\u201D which is used in the article title. Kindly check and provide the keywords as per the journal style.
+highlightForValueMismatchInTableLabelAndCitation=Table footnote label '%s' and its respective citation differ. Hence, apply the style manually.
+highlightEnuncEndgroupCountMismatch=Please check endgrouping for all enunciations.
+CommentMessageForCharCount=Please note that as per style, the running head should contain only 50 characters; the given running head exceeds 50 characters. Please check.
+CommentMessageForAtlCharCount=Please note that as per style, the running head should contain only 50 characters; the introduced running head exceeds 50 characters. Please check.
+roleForList=Role 'bullet' or 'simple' introduced at the end of list.
+roleForReference=Role tag introduced at the end of bibitem for book, journal, online and other references.
+roleForAbstracttitle=Role 'executive-summary' introduced at the end of abstracttitle with 'significant' statements.
+roleForSectiona=Role 'materials|methods' introduced at the end of sectiona with 'materials and method' statements.
+roleForFigcaption=Role 'featured' introduced at the end of first figcaption parastyle.
+roleForParagraph=Role tag 'flushleft' introduced at the beginning of the first paragraph and the paragraph that immediately follows the first sectiona.
+countryConsistence=Country name modified based on consistency.
+queryForMissingBibContent=Please provide the %s for ref%s %s.
+declarationOfInterestStatement=For PIT=%s, remove Declaration of Interests section, which declares nothing.
+highlightMissingDiscussUrl=URL is missing in order.xml. Check and use the correct one in Discuss line.
+highlightIfMultiDiscussUrlPresent=Multiple URLs present in order.xml. Check and use the correct one in Discuss line.
+sentenceCaseForAuContribution=Credits changed to sentence case in 'authorcontribution' parastyle.
+queryForSingleContributeAuthorCountMismatch=The author %s in this article is not listed in the credit taxonomy file provided and hence cannot be added to the Credits section here. Please confirm.
+queryForMultiContributeAuthorCountMismatch=The authors %s in this article are not listed in the credit taxonomy file provided and hence cannot be added to the Credits section here. Please confirm.
+roleTagInsertion=Role tag inserted based on the section heading.
+missingAbstract_1=Please provide an abstract for this article.
+missingAbstract_2=Please provide an abstract for your chapter. Abstracts should be no more than 250 words and follow AMA style.
+missingKeyword_1=Please provide __ keywords for this article.
+missingKeyword_2=Please provide 5 to 7 keywords for your chapter.
+sectionaWithContent=Place the funding/disclosure sections above the acknowledgements or references (if acknowledgement missing).
+TextForTelFaxNum=Check for the same telephone number and fax number
+TextForOrganization=Check two similar institution present in affiliation
+TextforRepeatedContent=Check affiliation details repeated twice
+CSstatementParaText_1=Supplementary data related to this article can be found at %s.
+CSstatementParaText_2=Supplementary data related to this article can be found online at %s.
+CSstatementParaText_3=Supplementary material associated with this article can be found in the online version at %s (%s).
+CSstatementParaText_4=Supplementary data associated with this article can be found, in the online version, at %s.
+CSappendixSecText_1=Supplementary Data
+CSappendixSecText_2=Supplementary Material
+CSappendixSecText_3=Supplementary data
+CSstatementUrl_1=www.jendodon.com
+hgltMissedEcomponentTag=E-component tag is missing in order.xml. Check and introduce extended and compact-standard Appendixes.
+hgltForPresentEViewAbsentEcomp=E-component count=0 in order.xml, but extended Appendix is present. Check and change accordingly.
+hgltForAbsentEViewPresentEcomp=E-component is present in order.xml, but extended Appendix is missing. Check and introduce.
+queryForDeletedAuContribution=Please note that the \u201CAuthor Contributions\u201D paragraph has been deleted in accordance with standard AIP Publishing guidelines, which do not allow for the listing of the specific contributions of individual authors.
+highlightMissingCorrAuFromOrder=Corresponding author is not mentioned in meta-data. Check and raise author query if ORCID is missing for the corresponding author.
+queryForMissingOrcidIdForCorrAu=It is very important for the corresponding author to have a linked ORCID (Open Researcher and Contributor ID) account on MTS. To register a linked ORCID account, please go to the Account Update page (http://mts.hindawi.com/update/) in our Manuscript Tracking System and after you have logged in click on the ORCID link at the top of the page. This link will take you to the ORCID website where you will be able to create an account for yourself. Once you have done so, your new ORCID will be saved in our Manuscript Tracking System automatically.
+editedGSQuery=Have we correctly interpreted the following funding source(s) and country names you cited in your article: %s?
+missedGSQuery=Have we correctly interpreted the following funding source(s) you cited in your article: %s?
+gsMultiQueryMsg=Insert respective author query: first query if grant sponsor is present (use the edited sponsor name and its respective country) and latter if no sponsor is available.
+QueryForZerokwd=Please provide two to five keywords or indicate that no keywords should be listed.
+QueryForOnekwd=PNAS allows up to five keywords. Because we prefer to avoid publishing a single keyword, please add at least one more keyword (and specify your preferred order in which the keywords should appear) or delete the keywords entirely.
+QueryForTwoToFourkwd=PNAS allows up to five keywords. You may add %s %s. Also, please check the order of your keywords and approve or reorder them as necessary.
+QueryForFivekwd=Please check the order of your keywords and approve or reorder them as necessary. Note that PNAS allows up to five keywords; please do not add new keywords unless you wish to replace others.
+QueryForMoreThanFivekwd=PNAS allows up to five keywords. Please delete as many keywords as necessary to meet the five-term limit.
+gsRangeNotMatchedMsg=Sponsor name does not match closely with the database. If present in database, append with the fundref ID and raise resp. author query.
+highlightIfChapterNumNotAppended=Use the format 'chapter number, followed by a period, followed by the float number in Arabic'.
+highlightMultiWordInSingleConStyle=Use the allowed standard term with the respective charstyle.
+queryForMismatchedConRole_singleAu=We find that the role(s) provided for the author \u201C%s\u201D does not match the list of acceptable roles. Please choose a role from the below list for this author: Conceptualization, Methodology, Software, Validation, Formal Analysis, Investigation, Resources, Data Curation, Writing \u2013 Original Draft, Writing \u2013 Review & Editing, Visualization, Supervision, Project Administration, Funding Acquisition.
+queryForMismatchedConRole_multiAu=We find that the role(s) provided for the authors \u201C%s\u201D do not match the list of acceptable roles. Please choose a role from the below list for these authors: Conceptualization, Methodology, Software, Validation, Formal Analysis, Investigation, Resources, Data Curation, Writing \u2013 Original Draft, Writing \u2013 Review & Editing, Visualization, Supervision, Project Administration, Funding Acquisition.
+suggestionForMismatchedConRole=Charstyle and text do not match. Check and change accordingly.
+mutliEmailMatchForAnAu=Change the screentip with respect to the author order.
+emailNotMatchWithAu=Email not directly matches with any of the author. Check and change the screentip accordingly.
+suggestionForMergingIndependentNumberedRefCitation=Independent numbered reference citations appearing closer are changed to a single citation, eg, [1] [2] [3] --\u003E [1,2,3].
+commentForPuncChange=Punctuations (,;) are corrected in indirect reference citation with optional text in between [e.g: (See John et al., 2009, Jack 2015)-\u003E(See John et al., 2009; Jack 2015)]
+alertForCommaUsage=Punctuations (,;) are corrected in indirect reference citation with optional text in between [e.g: (See John et al., 2009; Jack 2015)-\u003E(See John et al., 2009, Jack 2015)]
+queryForMissingCharstyle=As per journal style, reference elements should be consistent. Please provide %s for the reference%s %s.
+queryToMakeCharstyleConsistent=As per journal style, reference elements should be consistent. Please check and make the %s consistent within the references.
+suggestionToInsertChapNumInFloats=Floats are changed to the format 'chapter number, followed by a period, followed by the float number' (eg, %s 1 --> %s 3.1 for Chapter 3).
+suggestionToCorrectChapNumInFloats=Floats are changed to the format 'chapter number, followed by a period, followed by the float number' (eg, %s 2.1 --> %s 3.1 for Chapter 3).
+suggestionForMismatchChapNumInFloats=For %s, use the format 'chapter number, followed by a period, followed by the float number'.
+floatNotInSequence=Place the float anchors sequentially.
+SuggestForCorrAuthor=Delete the correspondence address if it is same as the affiliation of the corresponding author. Also, check and correct the designators.
+suggestionFortextboxmovement=Move the Key Points textbox to the beginning of the body part
+suggestionForOtherParastylesPresent=Change into 3 bulleted points and raise the author query to confirm.
+queryForSciHubLinkDeletion=The content published on Sci-Hub infringes the copyright of the publisher from which it was obtained and therefore links to it cannot be allowed in Elsevier content; hence, URLs linked to Sci-Hub have been deleted.
+commentForWordCountInAbstractAbove150Or350=As per journal style, the length of the abstract should be no longer than %s words. So please restrict the length of the abstract as per journal style.
+CommentForMismatchQuery=Please confirm that the e-mail address listed in the correspondence footnote for %s is correct. If not, please insert in proof.
+CommentForMisMailInOrder=COPYEDITOR: Number of corresponding authors mismatches between the article metadata and manuscript. We have followed the manuscript. Please take care.
+CommentForMultiMailMisMatch=COPYEDITOR: There are multiple email addresses have been provided for corresponding author \u201CXXX\u201D. Please check and confirm.
+boldTextQueryForpValue_1=Please provide significance for bold entries in %s.
+bolditalicTextQueryForpValue_1=Please provide significance for bold-italic entries in %s.
+italicTextQueryForpValue_1=Please provide significance for italic entries in %s.
+boldTextQueryWithoutpValue_1=Please provide appropriate footnote for bold entries in %s.
+bolditalicTextQueryWithoutpValue_1=Please provide appropriate footnote for bold-italic entries in %s.
+italicTextQueryWithoutpValue_1=Please provide appropriate footnote for italic entries in %s.
+boldTextQueryForpValue_2=Provide the meaning of the bold values provided in %s.
+bolditalicTextQueryForpValue_2=Provide the meaning of the bold-italic values provided in %s.
+italicTextQueryForpValue_2=Provide the meaning of the italic values provided in %s.
+boldTextQueryWithoutpValue_2=Provide the meaning of the bold values provided in %s.
+bolditalicTextQueryWithoutpValue_2=Provide the meaning of the bold-italic values provided in %s.
+italicTextQueryWithoutpValue_2=Provide the meaning of the italic values provided in %s.
+DesignatedLabelsToBeArabicSuggestion=Use Arabic numbers for designated labels (eg, Phase I --> Phase 1).
+backMatterParaNotSeqSuggestion= Back matter headings are not in the allowed order. It should be in the following order: Acknowledgments, Statement of Ethics, Conflict of Interest Statement, Funding Sources, Author Contributions, and Data Availability Statement.
+nonBackMatterParaPresentSuggestion=Order of back matter statements should be in sequence. Check for the placement for other section heading.
+backMatterPlacementSeqSuggestion=Back matter section should be placed after the main text and before the references.
+suggestionToFollowAuthorInitials=Use initials with dots to refer the authors of this article.
+suggestionToFollowAuthorInitialsMultiMatch=Use the correct initials with dots to refer the authors of this article.
+usukConsistencyCheckHgltWordsSuggestion=Check and use the correct spelling variant.
+affOrgMissing=Please provide department/division names, institution/organization in affiliation%s.
+affCityMissing=Please provide city name in affiliation%s.
+affStateMissing=Please insert appropriate state name in affiliation%s.
+affCountryMissing= Please insert appropriate country name in affiliation%s.
+affCityNStateMissingUs= Please provide city, state (with two-letter postal service format) in affiliation%s.
+affCityNStateMissingCanada= Please provide city, state (with two-letter postal service format) in affiliation%s.
+affCityNStateMissingAus=Please provide city, state (with three-letter postal service format) in affiliation%s.
+affCityNStateMissingOthers=Please provide city, state/province/territory in affiliation%s.
+affCityNAllMissing=Please provide city, state/province/territory (for United States/Canada two-letter postal service format, Australia three-letter format), and country (written out in full) in affiliation%s.
+affMissingSingle=Please provide complete affiliation details for the author \"%s\" in the following form: Department/division names, Institution/organization, city, state/province/territory (for United States/Canada two-letter postal service format, Australia three-letter format), and country (written out in full).
+affMissingPural=Please provide complete affiliation details for the authors \"%s\" in the following form: Department/division names, Institution/organization, city, state/province/territory (for United States/Canada two-letter postal service format, Australia three-letter format), and country (written out in full).
+dociStdText=^([\u2610\u2612] ?The authors declare the following financial interests/personal relationships which may be considered as potential competing interests[:.]? ?)(.*)$
+sameCoiDoci=Declaration of competing interest form submitted and the same content was provided in manuscript. We have retained the conflict of interest statement only under Declaration Competing Interest section. Please check and correct if necessary.
+diffCoiDoci=Declaration of competing interest form submitted and there is a statement in the main text related to COI. Please provide the conflict-of-interest statement that you prefer.
+checkedDociMoveCoiToDoci=Second option was ticked in the declaration of competing interest document but content was not provided; hence we've used the COI content provided in the Manuscript. Please confirm if this is correct.
+checkedDociMissingCoiDeleteFirstDoci=During submission you have mentioned that there is a conflict of interest. However the details of same is missing. Please provide the same.
+bothUncheckedCoiAndDociMissing=No option was ticked in the declaration of competing interest document provided; hence, we've just used the first option as this section is a requirement. Please confirm if this is correct.
+bothUncheckedOnlyDociMissing=No option was ticked in the declaration of competing interest document provided; hence we've used the COI content provided in the Manuscript. Please confirm if this is correct.
+queryForAuEdMissing=Please provide the author name (including initials) for Ref(s). %s.
+missingbibElementsWithAuName=Mandatory element(s) is/are missing in ref(s) %s. Reference citation in abstract should be expanded with author name, journal title, vol, page, year, as per stylesheet.
+missingbibElementsWithoutAuName=Mandatory element(s) is/are missing in ref(s) %s. Reference citation in abstract should be expanded with journal title, vol, page, year, as per stylesheet.
+missingbibElementsOnlyAuName=Mandatory element(s) is/are missing in ref(s) %s. Reference citation in abstract should be expanded with author name, year, as per stylesheet.
+bibmultiCitationInAbstractWithAuName=References are not allowed in Abstract section. Insert the corresponding information from reference list. e.g. [Dobbins et al. Med. Phys. 30, 608\u2013622 (2003)].
+bibmultiCitationInAbstractWithoutAuName=References are not allowed in Abstract section. Insert the corresponding information from reference list. e.g. [Horm Res Paediatr. 2017 Dec;87(5):354\u201358].
+bibmultiCitationInAbstractOnlyAuName=References are not allowed in Abstract section. Insert the corresponding information from reference list. e.g. Okolo et al., 2010 [1].
+unlistedRefsInAbstract=Reference(s) %s is/are not listed in Reference section and the citations not allowed in Abstract section. Please verify.
+StandardQueryForEmail=Please confirm that the provided email \u201C%s\u201D is the correct address for official communication
+charstyleThatAreMandatory=Please provide %s for reference %s.
+AlertMessageForClimateDignostic=Please set this reference as Data Serials. Please refer Data Serials section in the style guide.
+AlertMessageForStormData1993=Before 1994, the publishing agency should be NOAA or Dept. of Commerce for 'Storm Data' (Data Serials) reference.
+AlertMessageForStormData1994=After 1993, the publishing agency should be NCDC for 'Storm Data' (Data Serials) reference.
+queryForAuthorMisspelling=Please note that the spelling of the following author name(s) in the manuscript differs from the spelling provided in the article metadata: %s. The spelling provided in the manuscript has been retained; please confirm.
+queryForAuthorMisMatch=Please note that the order of the author names in the manuscript differs from the order provided in the article metadata. The order provided in the manuscript has been retained; please confirm.
+backMatterParaNotSeqSuggestion_2=Order of back matter should be: (1) Author Note, (2) Acknowledgements, (3) Author Contribution, (4) Declaration of Conflicting Interests, (5) Funding, (6) ORCID ID, (7) Data accessibility statement, (8) Supplemental material, (9) Notes, (10) References.
+coiHead=Declaration of conflicting interests
+coiBody=The author(s) declared no potential conflicts of interest with respect to the research, authorship, and/or publication of this article.
+fundingHead=Funding
+fundingBody=The author(s) received no financial support for the research, authorship, and/or publication of this article.
+toRenumberingFloatsInAppendix=Numbering of figures/tables/equations in Appendices should follow on from the numbering in the text.
+affMissInSpecificAuthor=Because %s1 did not have an affiliation, affiliation %s2 was added for this author. If this is incorrect, please indicate the correct affiliation number or provide complete affiliation information for this author.
+affMissInSpecificAuthor_Query=AUTHOR: Please provide appropriate affiliation designator for the author “%s1.”
+affMissInAllAuthor=Affiliation %s was not ascribed to an author in the author list, so it was included with the first author. If this is incorrect, please update the author line as needed and/or remove the affiliation.
+affMissInAllAuthor_Query=AUTHOR: Please note that affiliation “%s” is not linked to any of the authors in the author byline. Please link the affiliation to the appropriate author.
+affMissInAffiliation=Affiliation %s1 is present in the author line, but affiliation text was not provided. Could you please either provide the missing affiliation text or delete affiliation %s1 from the author line?
+duplicateAffInAffliation=Affiliation %s is used for two different affiliations. Could you please indicate whether both affiliations should be retained or whether one may be deleted? If both are retained, we will renumber the affiliations accordingly.
+highlightduplicateAffInAffliation=Affiliation number “%s” has been used as label for more than one affiliations. Please check.
+fnMissInAllAuthor=Footnote %s was not ascribed to an author in the author list, so it was included with the first author. If this is incorrect, please update the author line as needed and/or remove the footnote.
+fnMissInFootnote=Footnote %s1 is present in the author line, but footnote text was not provided. Could you please either provide the missing footnote text or delete footnote %s1 from the author line?
+duplicateFnInFootnote=Footnote %s is used for two different footnotes. Could you please indicate whether both footnotes should be retained or whether one may be deleted?
+keywordsCountHighlight=As per style, maximum of %s keywords are allowed. %s keywords found. Please check and take necessary action.
+alertForJunkCharInAwardGroup=Entity/junk character is present in the awardgroup. Please check and make necessary amendments.
+queryForidenticalAffForSingleAuthor=Please note that affiliations \"%s\" in your submission seem to be identical. Hence, affiliation(s) \"%s\" has/have been deleted. Please check and confirm.
+partiallyMatchedAffiliation=Affiliations %s seems to be identical. Please check and delete the identical affiliation, if necessary.
+MessageAcronymNotMatchesExpansionInAffiliation=Acronyms for non university institutions do not need to be expanded (e.g., ECMWF, WMO, NASA, GFDL), but expand acronyms for schools (except Texas A&M) and organizations/departments within schools.
+MessageAcronymMatchesExpansionInAffiliation=Check and delete the acronyms when the expansion is present
+SuggestionUncitedFloats=Citation(s) for XXX is missing in the text. Please check and include a query for missing citation(s).
+SuggestionUncitedAlgorithm=Citation for XXX is missing in the text. Please insert a citation and check the same with the author.
+queryForIncorrectOrcid=The ORCID iD provided for author name did not appear to be valid. Please provide the correct ORCID iD with your proof corrections and also update your account on our online manuscript submission system.
+queryForIncorrectResid=The ResearcherID provided for author name did not appear to be valid. Please provide the correct ResearcherID with your proof corrections and also update your account on our online manuscript submission system.
+queryForIncorrectOrcidAndResid=The ORCID iD and ResearcherID provided for author name did not appear to be valid. Please provide the correct ORCID iD and ResearcherID with your proof corrections and also update your account on our online manuscript submission system.
+listALabelMissing=List number/label of lista parastyle is missing. Please check.
+auQueryForPresenceofOrcid=Please verify that the linked ORCID identifier(s) is/are correct for the following author(s): \u0022%s\u0022.
+auQueryForAbsenceofOrcid=Please note that the ORCID identifier(s) is/are not available for the author(s) \u0022%s\u0022. Please check and provide the ORCID IDs.
+corauQueryForAbsenceofOrcid=Please note that as per style, the ORCID information is recommended for the corresponding author. Hence, please provide ORCID for the corresponding author \u0022%s\u0022. Refer to the site \u0022https://orcid.org/\u0022 for more information about ORCID.
+singleAffUncitedInAuthor=Affiliation %s is not linked to any of the authors. Please check and provide the link.
+multipleAffUncitedInAuthor=Affiliations %s are not linked to any of the authors. Please check and provide the link.
+MissAffInSingularAuthor=Please provide an affiliation for author %s.
+MissAffInPluralAuthor=Please provide affiliation for author(s) %s.
+mandatoryHeadingOfAbstractSubheads=Please note that as per style the abstract should include the following mandatory headings: Purpose; Design/methodology/approach; Findings; Originality/value. Hence, please provide content for the subheading(s) \"%s\".
+rearrangeAbstractHeadingOrder=As per journal style, the subheads and casing of Structured abstract should be as follows: Purpose; Design/methodology/approach; Findings; Originality/value. Please check and take appropriate action.
+uncitedCommentForFurtherReading_2=Reference(s) that is/are not cited in the text is/are moved to the \u0022Further reading\u0022 section. Please check.
+SuggestionForMismatchInStandardText=The provided box content does not match with the standard text provided for box. Please check and make the necessary changes.
+StandardTextForCRP=This Short Case is brought to you in association with the Pathological Society of Great Britain and Ireland. Each month we feature a Short Case written by a member of the Trainees\u2019 Subcommittee of the Pathological Society of Great Britain and Ireland. This case, including its scanned slides, is published on the Pathological Society\u2019s website %s (previous cases can be accessed by members via the education portal login). The Short Case includes a series of Test Yourself Questions at the end to check your understanding of the case. We hope you enjoy reading it.%s
+numberedDateSuggestionToAbbrMonth=Abbreviate month in text (eg, use the format 3 Sep 1999).
+numberedDateSuggestionToExpandMonth=Expand month in text (eg, use the format 3 September 1999).
+MismatchInPartNumbers=Part number mentioned in the reference citation is not present in the corresponding reference. Please check.
+dataAvailabilityQuery=<comment message="We have received both a research data link as well as a Data availability statement for your article. As these two are contradicting content, please check and delete either one of them from the article."></comment>
+missingFootnoteCitations=Footnote \u201C%s\u201D is present without the corresponding citation. Please check.
+missingFootnotelabels=Citation \u201C%s\u201D is present without the corresponding footnote. Please check.
+footnoteWithoutlabelAndCitation=Footnote text is present without the corresponding designator in the label and the citation. Please check and raise query, if necessary.
+unitCitedInTable=This is the first occurrence in the article. Please check and make the necessary change or raise query appropriately.
+incorrectStandardUnitValue=The value provided does not match with the standard value provided in the style sheet. Please check.
+incorrectUnitRepresentation=Please check the first occurrence value of %s.
+insertStandardValueForAbbreviatedUnit=Please check and insert the standard value for %s.
+supplementaryCitationMissing=Order says \u201CY\u201D for supplementary files but the citations are missing in the text. Please check.
+standarSupplUrlWronglyCited=As per style, standard supplementary link should be included in the first occurrence of the supplementary citation. Please check and do the change.
+supplFnotherCreateParaStdText=Supplementary material for this article is available online
+CommentForDataAvailabilityStatement=A standard data availability statement has been added to your article, based on the information you gave in your submission. This text cannot be changed unless there is an error. Please remove any other data statement if the information is now duplicated. If the standard statement includes a link or DOI, please check that this is also an item in the reference list. If not, please provide the reference details (author, year, data title, repository name, link) and indicate where this reference should be cited in the text of your article.
+SuggestionForOdDoiMissing=Doi number is missing in the coversheet. Please check and include necessary query.
+SuggestionTextForSecHeadAlreadyPresent='Data availability statement' is already present in the article. Please check it against the content provided in the  XML order and do the changes, if needed.
+MissMatchInAuthorName=Author name in the manuscript is slightly different from the order. Please check and amend necessary changes.
+queryForCOIInsertion='Conflicts of Interest Statement' section is mandatory as per style. Please check and provide.
+InclusionOfCorrespondingAuthor=The author name(s) %s is not represented in the XML order as corresponding author. Please check.
+AuthorMismatchSuggestion=There is a mismatch in the author names present in the manuscript against the author names listed in the XML order. Please check and do the required style change in the correspondence field.
+suggestionForAuthorsWithEtal=List has only minimum number of authors (less than 4 authors) with et al. Please check and raise query, if necessary.
+queryForLocationNotMatchesInList=&lt;comment message="Please check the publisher location [city/state/country] details provided for reference(s) [%s]."&gt;&lt;/comment&gt;
+SuggestionBasedOnYear=As per style, query should not be raised for missing page range for AGU journals. Please check whether the following references are from AGU. If the references are not from AGU, then please raise an author query for missing page range.
+checkForCharstyleThatAreMandatoryMFC_PageRangeMissing=Please provide the page range or article number for the bibliography in Ref(s). %s
+queryForInsertionOfCorresAuthor=In accordance with AIPP style, we have added the corresponding author email address to your paper as a footnote. Please verify its content.
+alertForMissingDoiForBibitemsCitedInAbstract=As per style, doi number should be included next to the reference citation in the abstract section. Please check and include the doi number or include an author query for the missing doi number.
+alertForBibCitationsWithDoiLinkInAbstract=DOI/hyperlink is already present next to the reference citation. Please check if it is relevant and make changes if necessary.
+fundingMissingInAck=<comment message="There is currently no funding included. Please confirm if this is correct or provide the funding section."></comment>
+suggestionForSpaceGroupHyphenatedTerms=Please check whether the term highlighted is a space group. If yes, change the hyphen to overbar.
+supplStdTextBasedOnMetaData=This article contains supporting information online at XXX.
+supplQueryBasedOnMetaData=If you have any changes to your Supporting Information (SI) file(s), please provide revised, ready-to-publish replacement files without annotations.
+highlightToCorrectSupplStdText=The text provided for supplementary information is not the allowed standard text. Please check and change, if necessary. Also check whether the standard query is included.
+highlightToDeleteSupplStdSection=The order file does not have information for supplementary material. Please check whether the supplementary text present in the article is required. If not, please also check whether the article has query for supplementary and delete.
+queryForStatementOfEthics=<comment message="\u201CStatement of Ethics\u201D section is mandatory as per style. Please check and provide."></comment>
+alertForStatementOfEthics=\u201CStatement of Ethics\u201D section should not be included for the specified subject type. Please check and amend accordingly.
+alertOrderOfStatementOfEthics=The order of titles is not correct as per stylesheet. Please check and make the necessary changes.
+alertForEssentialsIsPresent=Please check whether the section heading \u201CEssentials\u201D should be changed to \u201CHighlights\u201D as per the style sheet. If yes, also check the placement of Highlights section and also include a note for publisher query.
+alertForListaMissing=As per style, highlights should be list. Please check and include the query.
+alertForHighlightsOrderIsWrong=Please note that Highlights is not in the order explained in style sheet. Please move it next to Keywords and above Introduction section. Please also include a publisher query if you are changing the placement.
+queryForInitial=<comment message="Please note that as per style, the author's forename should always be expanded. Kindly check and provide the expanded forenames for the author(s) \u0022%s\u0022."></comment>
+backMatterParaNotSeqSuggestion_3=Order of back matter should be: (1) Acknowledgements, (2) Research funding, (3) Author Contribution, (4) Competing interest, (5) Informed consent, (6) Ethical approval and (7) References.
+backMatterParaNotSeqSuggestion_4=Order of back matter should be: (1) Acknowledgements, (2) Author Contribution, (3) Research funding, (4) Conflict of interest statement and (5) References.
+alertForGeneration=Please check whether this needs to be changed to roman numerals.
+queryForTablePresentInAbstract=<comment message="Note that there should be no %s citations in the abstract in accordance with Frontiers\u2019 style guidelines. Kindly transfer the citations to the main text."></comment>
+alertForEditedAndReviewedBy=Please check and include publisher query, if necessary.
+alertForDiffEdAndRev=Details present in both the footnotes are different and hence we have not changed the text to \93Approved by\94. Please check.
+queryForCitationPresentInTheSectionHeading=<comment message="Transfer the citation%s for %s to the main text since citation%s %s not allowed to be cited in section headers."></comment>
+alertForCitationPresentInTheSectionHeading= citations should not appear in section headings. Relocate the citation to the text if its correct place is apparent; if not, query the author.
+alertForSameInitialInAck=Truncated author names look identical. Please check.
+alertForAuthorAbbreviateInAck=Middle initials should not be included in acknowledgment as per style. Please check whether the abbreviated initials have any middle initials and remove as per style.
+PresentAddrFn=As per style, present address should be placed next to the correspondence field. Please check and change the placement accordingly.
+citationsWithOnlyPartLabels=Please check whether all part labels present in the caption of Figure(s) %s is/are cited in the text.
+highlightFigureCitationSublocants=Please check whether the sublocants is applicable for all part figures cited and make the necessary change per style.
+queryTextForCitePresentOnlyInAbs=Note that there should be no reference citations in the abstract in accordance with Frontiers\u2019 style guidelines. Kindly transfer the citations to the main text.
+queryForAuthorIDMissingInAuthor=<comment message="If the following authors would like their LOOP profile to be linked to the final published version, ensure that they &lt;link id='https://www.frontiersin.org/register?returnUrl=https://loop.frontiersin.org' tooltip='https://www.frontiersin.org/register?returnUrl=https://loop.frontiersin.org &gt;register'&lt;/link&gt; with Frontiers at the provided link, and provide us with the URLs to their profile(s). If just an email address is provided, the profile link will not be added to the article. Non-registered authors and authors with profiles set to "Private" will have the default profile image displayed. Note that we will not be able to add profile links after publication.%s &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA6' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA6' &gt;https://www.frontiersin.org.cn/authors-proof-support/#QA6&lt;/link&gt;"></comment>
+queryForAuthorIDMissingInAuthorForSociety=<comment message="If the following authors would like their LOOP profile to be linked to the final published version, ensure that they &lt;link id='%s' tooltip='%s' &gt;register&lt;/link&gt; with %s at the provided link, and provide us with the URLs to their profile(s). If just an email address is provided, the profile link will not be added to the article. Non-registered authors and authors with profiles set to "Private" will have the default profile image displayed. Note that we will not be able to add profile links after publication.%s"></comment>
+alertForDiffEdAndRev=Details present in both the footnotes are different and hence we have not changed the text to “Approved by”. Please check.
+queryForUncitedAppendix=Please provide the citation for %s%s.
+queryForUncitedAppendix_1=%s%s has not been mentioned in the article, please add a citation within the text. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA74' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA74 &gt;https://www.frontiersin.org.cn/authors-proof-support/#QA74' &lt;/link&gt;
+alertIfIntroduceSectionHeading=Please check the submission and introduce or delete the section numbering, as per the requirement.
+AlertForPartialAffiliationOrgMatch=Please check whether this is identical with the organisation present in affiliation. If not include the standard query as per style.
+QueryForMissingAffiliationOrg=&lt;comment message="As previously reported, you have listed a commercial affiliation(s) and/or commercial funding. Before we can proceed to publication, please provide the relevant disclosure."&gt;&lt;/comment&gt;
+authorApologyAlert=Please check whether this has to be moved as a separate paragraph.
+AuContributionHead=Author contributions
+AuContributionBody=\u25A0\u25A0\u25A0\u25A0<?query Please note that an author contributions section is required for all Chemical Science articles. Please insert the relevant text to concisely explain each author&#x0027;s contribution to the work.?>
+errorMessage=SANCTIONED AFFILIATION IS PRESENT. DO NOT PROCEED FURTHER WITH THIS ARTICLE
+queryForKeyPointMissing=<comment message="Please supply Key Points for the article."></comment>
+alertForCharExceedInLista=As per style, only 140 characters are allowed. Please check and raise an author query, if required.
+queryForBulletPoints=<comment message="As per style, Key Points should have 3 bullet points. Kindly check and amend as required."></comment>
+alertForKeyPointPosition='Key Points' need to be placed before the 'Introduction' section. Please check and make the necessary change.
+queryForOrderMissMatch=<comment message="We have noticed a discrepancy between the author list in the submission system and in the accepted manuscript (for authors %s). For any authorship changes, Frontiers requires that all authors complete and sign the \u2018Authorship Change\u2019 form which is available at this link. Upload the file as a \u201CRelated Article\u201D file type together with your Author\u2019s Proof Corrections."></comment>
+queryForAuthorNameMisMatch=<comment message="We have noticed a discrepancy between the author list in the submission system and in the manuscript [for author%s %s (not listed in submission system/manuscript)]. For any authorship changes, Frontiers requires that all authors complete and sign the \u2018Authorship Change\u2019 form which is available at this\u00A0&lt;link id='https://www.frontiersin.org/files/pdf/Authorship_change_form.pdf' tooltip='https://www.frontiersin.org/files/pdf/Authorship_change_form.pdf' &gt;link&lt;/link&gt;. Upload the file as a \u201CRelated Article\u201D file type together with your Author\u2019s Proof Corrections.."></comment>
+alertForCountMisMatch=Authors count mismatch between manuscript and metadata. Check and take necessary action.
+MultiAuthorToSingleAuthorGroup=Affiliation designators are introduced for multi-author parastyle to single-author parastyle in affiliation parastyle.
+commentForWordCountInRRHAbove5=Reduce running title (top right corner starting from the 2nd page) to a maximum of five words.
+commentForWordCountInRRHBelow5=Confirm that the short running title (top right corner starting from the 2nd page) is correct, making sure to keep it to a maximum of five words.
+queryForMandatoryCharStyleMissing=Please update the status of the publication details of %s. %s.
+confirmTheEmail =<comment message="Confirm that the email address in your correspondence section is accurate. Any changes to corresponding authors requires individual confirmation from all original and added/removed corresponding authors. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA13' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA13'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA13&lt;/link&gt;"></comment>
+alertAuthorNameDiffInFXML=There is a mismatch in the author names present in the manuscript against the author names listed in the XML order. Please check and do the required style change in the correspondence/authors fields.
+alertAuthorGroup=Please check the author group and make necessary changes to the correspondence field.
+abbrWithDiffExp_1=The abbreviation \u0022%s\u0022 has been defined as \u0022%s\u0022 and \u0022%s\u0022 in the document. Please check, and correct if necessary.
+abbrWithDiffExp_2=The abbreviation \u0022%s\u0022 has been defined as \u0022%s\u0022 as well as \u0022%s\u0022.  Please check if the representation should be made consistent in the article.
+insertAffiliationInCorrAuthor=Please check the address for the corresponding author that has been added here, and correct if necessary.
+authorBiography=Please provide biographies for all authors.
+useHellipforAuInBib_1=Please note that as per the journal style, if there are more than %s authors/editors, the first %s author names are listed followed by \u201C%s\u201D and then the last author\u0027s name. If the author group consists of %s authors or fewer, all author names should be listed.
+useHellipforAuInBib_2=Therefore, in Ref(s). \u201C%s\u201D; please list all names for up to %s authors/editors. For more than %s authors/editors, use \u201C%s\u201D followed by the last author\u0027s name after the first %s authors/editors.
+elsevier_mfc=ENDEND|ENDEND_MFC|AEA|EJMECH|SSM|IJSU|EJSOBI|ACTOEC|MERE|JLPP|ATH|JUIP|MAC|PLAPHY|YMPAT|YEXER|SSSCIE|JATM|QUAGEO|OCMA|ENPO|YJARE|CAP|JNGSE|TOXCON|RM|COCOM|POWER|SPR|YANAE|RUST|YJEMA|JCRP|YNSTR|JDDST|JEAP|HAB|YJEVP|CTCP|AMSU|YJCRS|YMCPR|BRT|PRD|JBMT|IJME|JFCO|TATE|INBI|JLI|RENE|YBBRC|JMPG|BAE|JPOL|SAMES|JQSR|YFSIM|CSTE|JBB|SG|JPNE|META|JENR|JERG|YRMED|IB|RMCR|SO|ERGON|YEJON|IJPPAW|POLAR|YPMPP|ELSTAT|IJPDDR|BTEP|MODGEP|EAEF|POTE|YFMIC|IPVP|JTMA|JAPG|JPRR|JPBM|BSE|TACC|YPUPT|MHPA|NIP|TRIA|CCS|PHMED|EMOSPA|YFSTL|FOOHYD|FCT|VAC|YECSS|NP|ENSO|MCE|CAE|DCI|NCI|YRTPH|YPLAC|YJAUT|EJMG|YEXPR|YNIOX|AMPER|TIFS|PIAT|BIOCHI|TIS|JELS|EMJ|EDUREV|NEL|FUNECO|JCCT|YJHGE|WPI|JBIOR|HNM|APPET|YJASC|CONCTC|EGG|ACA|CECO|AES|CHB|YABBI|AG|CBI|YPREP|CHEM|CARBON|JFOE|MICRNA|ORGELE|PSYSPO|JRTPM|OPTMAT|PHYTO|AVR|YCRYO|JPCE|YSSRE|AOS|DYPI|MICMAT|THESCI|BIOMAT|SBB|EJMSOL|JHTM|IJLCJ|SHPSC|MAST|SEPS|SYS|OBMED|EMCON|IPEJ|AJOC|JTV|FDJ|JCOMB|EGY|PEDOT|PAN|CAR|ESR|YJFLM|SYNBIO|JCLP|YPTSP|JPGQ|AAF|XOCR|YABIO|IDM|NCRNA|DHJO|JPSSC|JQI|INTPLA|RSAP|RETREC|YTUBE|EPSC|GEGE|MSKSP|OMSC|AJS|TET|BRS|YJADO|TMAID|YBRST|YJBMT|YBIOL|JSSC|SFNM|IJOTN|APMRV|CBREV|PHOJ|JECR|THE|JTOS|JMAM|JMAT|IJNSS|DT|JONS|IJOSM|APR|IJPAM|ASMART|JANDT|JESF|XJEP|LIVRES|AFOS|YBEHA|JESCTS|CBM|PETROL|AA|INDAER|PCS|REVECO|PROECO|FISJ|JTRP|CHEMOM|IMU|ATP|CENG|PSS|JTPO|JNDT|MTM|JPAS|WACE|JECA|JOCM|SHPMP|JPQE|DCAN|ECOTRA|YSNMR|WRE|PTLRS|JTCME|YBEGA|DEVEC|FINEL|OE|CAGEO|EUCR|PETLM|IJIS|ECMODE|PHYSE|PHYSB|MEJ|SSC|SUSREP|INTECO|MYC|JNN|CAN|ATHPLU|IJNAOE|JOTO|YJNCA|POLECO|YJEEM|FINMAR|VLSI|REGEC|JCOMM|OSN|DEVENG|REGEN|ABST|JMG|LRP|PRE|NET|IJHEH|JOR|CEGH|DSX|JCOT|JOBCR|IHJCCR|JAJS|FSIDI|FSISYN|GLT|YEJSO|TMA|JMSE|ESG|METOP|JIMED|ETRAN|AEAOA|TOXCX|OMX|ACAX|YRMEX|BIOFLM|SSAHO|MITOCO|SMAIM|URINE|NANOMS|CERI|IJDRR|FRB|BCAB|ARI|FBIO|CSITE|GSD|COCO|AS|JFMI|GFS|BBREP|JDMM|JBVI|BPRINT|JHLSTE|JORT|BCDF|DAACH|MEMSCI|JEPO|YJSSC|REDOX|YDBIO|SSMPH|JHAP|YMBEN|PNSC|IJGFS|ISWCR|JPHA|DIFF|MMCR|JUM|MSA|JEP|LUMIN|SOLMAT|JRPO|NSY|JTH|RHISPH|SMHL|PLABM|MEC|TVR|NBSCR|YENRS|JOBE|MATSCI|YEXCR|WEA|JJRC|RMMS|TB|JAAD|DSRI|CSR|RSASE|DSRII|CALPHA|ENVDEV|JOCRD|RSER|TAL|EJP|BIOS|SDEE|JMBBM|RPC|YVIRO|SCP|JCBS|TECH|HJDSI|PURSUP|WRI|BIOSX|INDIC|MEASEN|QSA|BIOTNO|GSF|SIMPA|MASPEC|PHYSO|ARRAY|SRS|CSCEE|JAFR|JNLEST|MEDNTD|JTAUTO|ACAGS|DIBE|OOC|POWERA|CHBR|BBIH|RINMA|SMHS|FSIML|MEDMIC|RINENG|SINTL|ADVMS|CPNEC|IBMED|MDND|UNCRES|JOEI|YEJPN|DMPK|JTCMS|JSSR|ASJSUR|RESPLU|SSMMH|TRU|GRESC|EERP|NHRES|RADMP|AIIG|ESE|PUHIP|OCERAM|OCSCI|OPROLS|AIOPEN|REGSUS|IJIN|ENMF|BIO|FSI|EASTSJ|PLAS|ENGEOS|ISURG|CLPL|WATCYC|DSM|EJTL|FUNBIO|CLET|CLRC|AJPC|CAEAI|MATRE|YNIRP|JCISO|CESYS|GCE|CEQI|JVE|AIME|TCHEM|SEGY|MECMAT|BCRA|IJMMB|REPBRE|MTPHYS|GOCM|ADOMS|JICS|SSMQR|YJCMS|JIC|IHJ|JRE|JRMGE|JCZ|YBARE|CJTEE|JOT|JGR|CRGSC|OCARTO|CRFS|CRGEDE|CRIMMU|CRNEUR|CRPHAR|CRPHYS|CRSTBI|CRVIRO|IJCCHD|CRCBIO|ONSIG|IOTCPS|OPHOTO|ADCANC|EJMCR|CJPRE|NSA|PETSCI|MRL|EQREA|BAS|AOPR|PSYCOM|IJCCRP|METIP|COMMTR|JPLPH|CJPRS|EJCPED|EJCSKN|WATBS|INPM|ADVMEM|SMMF|ACPATH|APMATE|CROPD|CELLIN|OOR|ENREV|MTADV|MTBIO|OBPILL|ESCI|JPGOR|EFMAT|VIRS|JRRAS
+stdCoiStmtVariants=The authors? declares? that the research (?:was|were) conducted in the absence of any commercial or financial relationships that could be construed as a potential conflicts? of interests?[.]?
+singleAuCoiStmt=The author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+multiAuCoiStmt=The authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+remainingSingleAuCoiStmt=The remaining author declares that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+remainingMultiAuCoiStmt=The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+alertFundingInCoiSec=As per style, funding information should be moved to \u201CFunding\u201D section. Please check and make necessary changes. Also include standard funding query after moving this text to \u201CFunding section\u201D.
+coiStdQuerySubjectCheckForFseries=Confirm if the text included in the Conflict of Interest statement is correct. Please do not suggest edits to the wording of the final sentence, as this is standard for Frontiers' journal style, per our &lt;link id='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#conflicts-of-interest' tooltip='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#conflicts-of-interest&gt;guidelines'&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA54' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA54'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA54&lt;/link&gt;
+alertMultiAuWithSameInitial=Author initials look identical. Please check.
+reviewerCOI=Please check and replace with the standard COI statement, if necessary.
+dataAvailabilityHead=Data availability
+dataAvailabilityBody=\u25A0\u25A0\u25A0\u25A0<?query Chemical Science strongly encourages authors to deposit as much data related to their article as possible in appropriate repositories. Do you have experimental or computational data associated with this article? If so, we would encourage you to please provide a data availability statement. More details can be found on the Chemical Science website (rsc.li/ChemSci_JSG).?>
+coiHeadingInSectionA=Conflict of Interest&lt;style name=role&gt;conflictOfInterest&lt;/style&gt;
+coiBodyInSectionA=The authors declare no conflicts of interest relevant to this study.
+abstractRunOn=In accordance with Frontiers style, we have changed the Abstract text into a single paragraph.
+abstractRunOnWiley=AUTHOR: Journal style is to use an unstructured abstract; you supplied a structured abstract. All structuring has been removed - please check.
+correctCommaPlacementFromFiveToTenDigits=Please check the placement of comma used as thousand separator for the numbers with more than five digits. Comma should be used only for groups of three places. Correct if necessary.
+alertForSpanishWordsWithReplace=Article title has language attribute. Please check and change this word to the relevant Spanish word provided in the replace option.
+alertForSpanishWordsWithoutReplace=Article title has language attribute. Please check and change this word to the relevant Spanish word.
+QueryForMissingTrialDetails=&lt;comment message="Provide the Clinical Trial Registration/Systematic Review Registration details (Unique Identifier and URL of the publicly accessible website), if applicable. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA84' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA84'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA84&lt;/link&gt;"&gt;&lt;/comment&gt;
+deleteAuthorRoleColumn=Please check and delete the column since only the values in the \u201CRole\u201D column is deleted.
+coinvestigatorRoleMandatory=Please note that as per journal style Role is mandatory for all the authors in Coinvestigator section. Please check and update.
+coinvestigatorRoleMandatory_suggestion=\u201CRole\u201D column is missing. Please include query if necessary.
+casingSuggestionForsectionHeading=Please check and change the casing for this text if it is referred as Section heading.
+alertForMismatchNameInOrderAndAu=Corresponding author name given in the metadata did not match with the names given in author group. Please check and insert the designator in the author line as per the style.
+numberedUncitedReferences=Uncited references: This section comprises references that occur in the reference list but not in the body of the text. Please position each reference in the text or, alternatively, delete it. Any reference not dealt with will be retained in this section. Thank you.
+citationChangedBasedonAuOrDateSingleOccur=The citation \u0022%s\u0022 has been changed to match the author name/date in the reference list. Please check.
+citationChangedBasedonAuOrDateMultiOccur=The citation \u0022%s\u0022 has been changed to match the author name/date in the reference list. Please check here and in subsequent occurrences.
+citationChangedBasedonAu_1=The %s \u2018%s\u2019 %s been changed to match the author name in the reference list. Please check.
+citationChangedBasedonAu_2=The %s \u2018%s\u2019 %s been changed to match the author name in the reference list. Please check here and in subsequent occurrences.
+citationChangedBasedonDate_1=The %s \u2018%s\u2019 %s been changed to match the date in the reference list. Please check.
+citationChangedBasedonDate_2=The %s \u2018%s\u2019 %s been changed to match the date in the reference list. Please check here and in subsequent occurrences.
+standardTextForAuContribSec=The author confirms being the sole contributor of this work and has approved it for publication.
+queryForChangeStandardTextForAuContribSecSingleAuthor=&lt;comment message="The author contribution section is mandatory and a standard statement has been inserted. Please edit as needed to accurately reflect the contribution. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA43' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA43'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA43&lt;/link&gt;"&gt;&lt;/comment&gt;
+queryForChangeStandardTextForAuContribSecMultiAuthor=&lt;comment message="Confirm if the edit made in the \u201CAuthor Contributions\u201D section is correct. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA40' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA40'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA40&lt;/link&gt;"&gt;&lt;/comment&gt;
+queryForChangeStandardTextForAuContribSecMultipleAuthorWithLink=&lt;comment message="The author contribution section is mandatory and a standard statement has been inserted. Please edit as needed to accurately reflect the contribution of each author. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA44' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA44'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA44&lt;/link&gt;"&gt;&lt;/comment&gt;
+queryForChangeStandardTextForAuContribUsingMetaCheck=&lt;comment message="Confirm that the details in the \u201CAuthor Contributions\u201D section are correct. If any contributions need to be added/edited, choose the appropriate CRedIT roles from the list available &lt;link id='https://credit.niso.org/' tooltip='https://credit.niso.org//'&gt;here&lt;/link&gt; and indicate which one(s) apply. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA39' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA39'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA39&lt;/link&gt;"&gt;&lt;/comment&gt;
+auContribHeading=Author Contributions&lt;style name=role&gt;author_contribution&lt;/style&gt;
+auContribBodyForMultipleAu=All authors listed have made a substantial, direct, and intellectual contribution to the work and approved it for publication.
+auContrubBodyForSingleAu=The author confirms being the sole contributor of this work and has approved it for publication.
+nounVerbTypeUsUkWordsSuggestion=Check the context and change to US spelling if relevant.
+organisationUsUkWordshgltSugg=Check the context and change to %s spelling if relevant.
+MissingGrantSponsor=The funding organization(s) \"%s\" is/are not present in the database. Please check and raise appropriate query.
+numberedUncitedReferences_asip=Uncited references: This section comprises the references that are given in the reference list but not cited in text. Please cite each reference in text or alternatively, delete it from the reference list.
+numberedUncitedReferencesWithoutSecHead=The following references are uncited: [%s]. Please introduce appropriate citations in the article.
+queryforMissingFigCaption=Please provide a caption for Fig. %s.
+ccdcUniprotExternalLink=Please clarify whether the following number%s %s Genbank ID%s or %s%s: %s.
+UnlistedCommentDefaultMessageSingularPlural=%s%s. Please check.
+citationInTblBody=%s citation(s) are included at the end of the table caption since citations are present only inside the table. Citation present inside the table has been unlinked as per the requirement. Please check the floats for sequential ordering.
+alertForOrcidMissing=ORCID present in the metadata is missing in the article. Please check and include the same.
+keywordCheckThroughoutArticle=Please check the casing for this term throughout the article and make necessary changes.
+keywordIsMissingInFile=This text is not present in the article. Please check for the casing.
+queryTableFigureCitationsSequential=Note that %s1 %s2 and %s3 were interchanged since their citations need to be listed in sequential order, per our style.
+expandJournalTitle=Check Expansion
+abbreviateJournalTitleWithoutdots=Check Abbreviation
+abbreviateJournalTitlesAsPerISSN_WithoutDot=Check Abbreviation
+bookTitleSentenceCaseWithCapAfterColon=Check sentence casing
+bookTitleSentenceCaseWithCapAfterColonForFullCaps=Check sentence casing
+articletitleSentenceCaseWithCapAfterColon=Check sentence casing
+articletitleSentenceCase=Check sentence casing
+articletitleSentenceCaseForFullCaps=Check sentence casing
+articletitleSentenceCaseWithCapAfterColonForFullCaps=Check sentence casing
+editedBookTitleSentenceCaseWithCapAfterColon=Check sentence casing
+editedBookTitleSentenceCaseWithCapAfterColonForFullCaps=Check sentence casing
+seriesBookTitleSentenceCaseWithCapAfterColon=Check sentence casing
+seriesBookTitleSentenceCaseWithCapAfterColonForFullCaps=Check sentence casing
+articletitleTitleCaseWithLcAfterColonForArticlesPrepositionsAndConjunctions=Check title casing
+booktitleTitleCaseWithCapAfterColonAlways=Check title casing
+booktitleTitleCaseWithCapAfterColonAlwaysMaskingGenusSpecies=Check title casing
+AbbreviateJournalTitleWithoutdotsIndexMedicus=Check Abbreviation
+publisherShouldBeInTitleCase=Check title casing
+alwaysExpandJournalTitles=Check Expansion
+journalTitleCase=Check Expansion
+seriesEditedBookTitleSentenceCaseWithCapAfterColon=Check sentence casing
+seriesEditedBookTitleSentenceCaseWithCapAfterColonForFullCaps=Check sentence casing
+bookTitleSentenceCaseWithLcAfterColon=Check sentence casing
+bookTitleSentenceCaseWithLcAfterColonForFullCaps=Check sentence casing
+seriesBooktitleSentenceCaseWithLcAfterColon=Check sentence casing
+seriesBooktitleSentenceCaseWithLcAfterColonForFullCaps=Check sentence casing
+editedBooktitleSentenceCaseWithLcAfterColon=Check sentence casing
+editedBooktitleSentenceCaseWithLcAfterColonForFullCaps=Check sentence casing
+seriesEditedBooktitleSentenceCaseWithLcAfterColon=Check sentence casing
+seriesEditedBooktitleSentenceCaseWithLcAfterColonForFullCaps=Check sentence casing
+journalAbbreviationToExpansionUsingJournalDB_TitleCase=Check Expansion
+raiseQueryIfSubject2Present=Note that the abstract was deleted since it should not be included, per Frontiers guidelines for %s articles. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA69' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA69'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA69&lt;/link&gt;
+queryForParaEnd=Please check acknowledgment/funding information and make sure none is missing and those listed \u2013 if any \u2013 are accurate. Once the article is published these can only be added/updated in a corrigendum.
+AlertLinkMissing=Link is missing in metadata. Please check.
+auContribAndAuGroupDiff=Author count is different between the author group and author contribution section. Please check.
+MissingVolumeOrIssueNumbersAndPageRange=Please provide the volume number, issue number and page range for Reference(s) \u201C%s\u201D
+MissingVolumeOrIssueNumbers=Please provide the volume (or issue) number(s) for Reference(s) \u201C%s\u201D
+MissingPageRangeOrArticleNumber=Please provide the page (or article) number(s) for Reference(s) \u201C%s\u201D
+MissingPublisherName=Please provide the publisher name for Reference(s) \u201C%s\u201D
+MissingPublisherLocation=Please provide publisher location for Reference(s) \u201C%s\u201D
+MissingBothPublisherNameAndLocation=Please provide the publisher name and publisher location for Reference(s) \u201C%s\u201D
+alertForCountNotExceed=Please check whether the \u201Cspecial-requirements\u201D in meta has editor name and include the same in the article.
+alertForCountExceed=The character count in \u201Cspecial-requirements\u201D exceeds 25 characters. Please check and include the necessary information to the article.
+alertForCorrectCasing=Please check the casing of \u2018%s\u2019 and correct it consistently throughout the article.
+alertForAssociatedEditorMissMatch=Associated editor name present in the manuscript differs from metadata. Check and replace with the name in metadata, if necessary. Also check the placement.
+alertForArticlefootnotePlacement=Associate editor should be placed below correspondence section. Please check and correct the placement.
+alertForAssociateEditorMissing=AUTHOR: Please provide the name of the associate editor.
+alertForLabelsMissing=Labels are missing. Please check for the allowed label style for display list.
+dasHeaderOrderCheck=DATA AVAILABILITY STATEMENT&lt;style name='role'&gt;dataAvailability&lt;/style&gt;
+dasMissingQueryOrderCheck=AUTHOR: Please provide appropriate data availability statement as per JSLD.
+StandardizedAbstractWithAims=Abstract subheadings present is different from the allowed subheadings. Please check and do the necessary changes.
+alertForMissingDegree=Check whether \u201CDegree\u201D is present in metadata and include for the author%s \"%s\".
+alertForMissingJobTitle=Check whether \u201CJob title\u201D is present in metadata and include for the author%s \"%s\".
+alertForAuthorDetailsDiffInMetadata=Corresponding author details present in the manuscript differs from the details present in the metadata. Please check.
+alertForMoreThanOneAffiliation=Author %s is affiliated to more than one affiliation. Please check and include the correct affiliation in the correspondence field.
+alertForEmailIdMissing=Email address is missing for the corresponding author. Please check and include query if necessary.
+alertForCorresAuthorMissing=Please check and include the missing corresponding author details in the correspondence field.
+alertForOrderMismatchInCoAuAndAuGroup=Author order mismatch between the author group and corresponding author footnote. Please check and correct as necessary.
+queryForCitationChange=The citation \u0022%s\u0022 has been changed to match the author name/date in the reference list. Please check.
+queryForYearChangeInRef=The year in the %s occurrence of \u0022%s\u0022 in the list has been changed to \u0022%s\u0022.
+queryForCitationChangeSingleAuthor=The citation \u0022%s\u0022 has been changed to match the author name/date in the reference list. Please check.
+subheadingCountIsOne=As per style, there should be at least two sub headings underneath each level heading. Here only \"%s\". Hence, we have removed the heading(s). Please check if this is fine.
+highlightTodeleteSingleSubsection= As per style, more than one subheading should be present. Please check and delete the section heading and also check the query included for the deletion.
+highlightToCheckMixedSubSectionCount=Please check the allowed count of subheading.
+alertForFloatsPresentInMaterialsAndMethods=Floats are not allowed in this section. Please delete and include it in appropriate place.
+alertForSubHeadingsSubsections=Citations of subheadings should be truncated if it has more than 4 words. Please check.
+authorDegreeIsMissingForFewAuthors=Au: Please provide maximum of two academic degrees for author%s \%s\.
+queryMessageFor1AuthorOr2AuthorEtal=&lt;comment message="Au: Please note that as per the journal style, if there are more than %s authors, list first %s authors names followed by \u2018%s\u2019 and if the author group consists of %s authors or fewer, all author names should be listed for Ref(s). %s. "&gt;&lt;/comment&gt;
+alertForPLSAndAbstractHaveSameText=Text is identical with \u0022Abstract\u0022 paragraph. Please check and delete.
+alertForPLSMissing=Plain language summary is missing for this article. Please check the stylesheet and action accordingly.
+alertFormathTotextOrTexCodePresent=Math/Tex coding is present in abstract. Please check whether abstract is identical against Plain language summary section and delete, if necessary.
+queryForMorethan15References=<comment message="Au: A maximum of only 10 to 15 references are allowed for this article type. Please omit extra references."></comment>
+commentForWordCountInAbstractAbove250=Au: Per journal style, Abstract may not exceed 250 words. Please amend as necessary to meet this requirement.
+errorMessageForMisMatchedParastyles=Article contains unknown parastyles which are listed below. Please correct the parastyles and rerun ACE:
+customersWithUpdatedQueries=elsevier_mfc|elsevier_mf|elsevier_lemans|frontiers
+alertForManagingEditor=Please check the \u201CManaging editor\u201D name against the XML order.
+queryForUnlistedRef=Reference\u0028s\u0029 %s is/are cited but not listed in the reference list. Hence, the reference\u0028s\u0029 is/are added at the end of the reference list. Please check.
+stdTextForDataAvailPara=All data generated or analyzed during this study are included in this article and its online supplementary material.
+stdTextDataAvailParaInArticle=All data generated or analyzed during this study are included in this article.
+alertIfAuthorCitedButAffLabelMissing=Affiliation is cited without the corresponding affiliation. Please check and raise query.
+errorMsgForUncitedRefs=Reference(s) \u0022%s\u0022 is/are not cited in text
+errorMsgForUnlistedRefs=Reference(s) \u0022%s\u0022 is/are not listed in the reference list
+errorMsgForUncitedFloats=Float(s) is/are missing in file
+errorMsgForPartialMatch=Reference \u0022%s\u0022 is partially matched with \u0022%s\u0022
+errorMsgForIdenticalMatch=Refs. %s were identical, the latter has been removed from the reference list and subsequent references have been renumbered.
+errorMsgForIdenticalMatchWithMultiBib=Reference %s is identical with %s with multi bibitems
+suggestionForSequentialOrder=Reference citations are not in sequential order and renumbered in text and list respectively.
+commentForMissingCitationNAS_Table=Au: %s %s not cited in the text. So, we have inserted %s citation%s in the sentence \u201c\u2026\u201d Please review our placement or change if needed.
+commentForMissingCitationNAS_Figure=Au: %s %s not cited in the text. We have cited %s in the sentence \u201c\u2026\u201d Please check our placement or reposition if needed.
+articletitleSentenceCaseWithCapAfterColon_NER=Check sentence casing
+AlertUncitedSectionHeading=Check whether this should be linked to the appropriate section heading.
+QueryToBeIncludeForUncitedAff=Please indicate which author(s) should be associated with address X, as currently this affiliation has not been assigned to any of the authors.
+alertForStandardCOI=Please check and change the sentence to the standard statement \u201CThe authors have no conflicts to disclose.\u201D
+queryForStandardParaContent=The journal requires a Conflict of Interest statement. Please provide text explaining any potential conflicts of interest or state that you have no conflicts of interest to disclose.
+AuDeclarationHead=AUTHOR DECLARATIONS&lt;style name=role&gt;author-declarations&lt;/style&gt;
+AuDeclarationOrCOIBody=\u25A0.<!--query The journal requires a Conflict of Interest statement. Please provide text explaining any potential conflicts of interest or state that you have no conflicts of interest to disclose.-->
+COISectionHead=Conflict of Interest&lt;style name=role&gt;conflict-of-interest&lt;/style&gt;
+alertForLinkUpdation=Please make sure to provide link for \u0022Max Planck Society\u0022.
+alertForMovedTblCaption= A part of the caption has been moved below the table as legend. Please check whether it has list of abbreviations and do the changes as per style.
+alertmsgforauContriStdStatement=Please check and change it to standard allowed statement.
+alertmsgforContriSecInfn=As per style, this text should be moved as \"Author contributions\" section. Please make the change and also delete the corresponding footnote citation.
+alertmsgforBothfnandAuContriSec=Check whether the content in footnote should also be included in the \"Author contributions\" section.
+errorMessageForMisMatchedCharstyles=Article contains unknown character styles which are listed below. Please correct the character styles and rerun ACE:
+commentForarticletitle=Check whether the title matches with the sectiona title present inside the box.
+countMisMatchAlert=Author count present in the manuscript differs with the count present in the order file. Please check.
+orderMisMatchAlert=Order of author names present in the manuscript differs from the order present in the the order file. Please check.
+fnmShouldExpandAlert=Please note that as per style, the author's forename should always be expanded. Kindly check and provide the expanded forenames for the author(s) \u201C%s\u201D.
+AlertForIndirectCitationInBtwSentence=Citation(s) are not allowed in the middle of the sentence. Please move it to the end of the sentence as per style.
+errorMessageForMisMatchedCharstyles=Article contains unknown character styles which are listed below. Please correct the character styles and rerun ACE:
+alertIfSectionaContentOtherthanEditor=As per style. "TO THE EDITOR:" should always be the first sectiona for this subject type. Please check.
+CasingSuggestionspacedendash=Check whether this should be changed to Uppercase.
+AlertForIndirectCitationInBtwSentence=Citation(s) are not allowed in the middle of the sentence. Please move it to the end of the sentence as per style.
+AlertForIndirectCitationInBtwSentence=Citation(s) are not allowed in the middle of the sentence. Please move it to the end of the sentence as per style.
+alertMsgIfPublisherNameFullCaps=Alert: Publisher name should be in title case. Please check.
+queryofCountOfLessThanSevenAu=&lt;comment message="Please note that as per the journal style, if there are more than \u0027%s\u0027 authors/editors, the first \u0027%s\u0027 author names are listed followed by \u2018%s\u2019 if the author group consists of \u0027%s\u0027 authors or fewer, all author names should be listed. Therefore, in Ref(s). \u0027%s\u0027 please list all names for up to \u0027%s\u0027 authors/editors. For more than \u0027%s\u0027 authors/editors, use \u0027%s\u0027 after the first \u0027%s\u0027 authors/editors."&gt;%s&lt;/comment&gt;
+fnOtherTextForBadges=&lt;style name=st&gt;Open Practices&lt;/style&gt;%s%s%sThis article has received badge for %s More information about the Open Practices badges can be found at &lt;link id='http://www.psychologicalscience.org/publications/badges/' tooltip='http://www.psychologicalscience.org/publications/badges/'&gt;http://www.psychologicalscience.org/publications/badges&lt;/link&gt;
+AlertIfListedVariantMatched=Department names can be retained in Edited/Reviewed by for larger institutions. Kindly check.
+AlertIfMoreThanOneInstitution=Department/Faculty is present in Edited/Reviewed by footnote. Kindly check and delete.
+authorWithoutFnCitation=Equal contribution footnote is not cited in the author group. Please check and make the necessary changes.
+singleauthorWithFncitation=Only one author has been designated to fnequal. Please check and change the statement as per style.
+authorCitiedFnCitationButNoLabel=Equal contribution footnote label is missing. Please check and make necessary changes.
+FnCitationInAuthorMissingAndLabelMissing=Equal contribution footnote label and citation are missing. Please check and make necessary changes.
+alertForUsageOfCallOutsInSectionHeading=As per style, Callout(s) section should not be used in the article. Please check and delete.
+dataAvailHeadInSectionA=DATA AVAILABILITY&lt;style name=role&gt;data-availability&lt;/style&gt;
+dataAvailBodyInSectionA=\u25A0.<!--query Please provide a data availability statement for your paper.-->
+authorContribContent=Author Contributions&lt;style name=role&gt;author-contributions&lt;/style&gt;
+suggestionForOutOfOrder=As per style, order of major headings should be 'Materials and Methods, Results, Discussion' or 'Materials and Methods, Results and Discussion'. Please ensure that correct order and correct phrase are followed.
+standardFootnoteTextIfNoCitiation=*The &lt;b&gt;&lt;i&gt;e&lt;/i&gt;&lt;/b&gt;-&lt;b&gt;X&lt;/b&gt;tra logo stands for "electronic extra" and indicates that supplementary materials are published online.
+standardFootnoteTextBasedOnCitiationCount=*The &lt;b&gt;&lt;i&gt;e&lt;/i&gt;&lt;/b&gt;-&lt;b&gt;X&lt;/b&gt;tra logo stands for "electronic extra" and indicates that %s%s%s %s published online.
+AlertForIndirectCitationInBtwSentence=Citation(s) are not allowed in the middle of the sentence. Please move it to the end of the sentence as per style.
+CharCountInArticleTitle_54=For article titles, we can accommodate a maximum of three lines of text with no more than 54 characters (including spaces) per line. Could you please provide a title revision that meets these guidelines?
+CharCountInArticleTitle_50=For article titles, we can accommodate a maximum of three lines of text with no more than 50 characters (including spaces) per line. Could you please provide a title revision that meets these guidelines?
+CharCountInArticleTitle_47=For article titles, we can accommodate a maximum of three lines of text with no more than 47 characters (including spaces) per line. Could you please provide a title revision that meets these guidelines?
+CharCountInArticleTitle_150=Titles are limited to 150 characters, including spaces. Please amend as necessary to meet this requirement.
+queryForAwardgroupMissing=BA: Funding information is required as per JSLD.
+errorMessageForMisMatchedCharstyles=Article contains unknown character styles which are listed below. Please correct the character styles and rerun ACE:
+expandJournalTitle_JournalDB_CASSI=Check Expansion
+abbreviateJournalTitleWithoutdots_JournalDB_CASSI_IndexMedicus_ISSN=Check Abbreviation
+abbreviateJournalTitleWithdots_JournalDB_CASSI_IndexMedicus_ISSN=Check Abbreviation
+AlertForContentMismatchWithList=Text provided doesn\u2019t match with the standard statements. Please check and raise problem task to JM.
+AlertForContentMismatchWithMultipleSectionsPresent=Text provided in both the sections for DoCI doesn\u2019t match with the standard statements. Please check and raise problem task to JM.
+AlertForSameContentWithMultipleSectionsPresent=Two sections provided for DoCI and the statements provided for both the section matches with Option 1. Please check and retain the appropriate DoCI section with the default DoCI statement of Option 1 with including the appropriate query.
+AlertForDiffParaContentOccur=Text provided in both the sections for DoCI doesn\u2019t match with the standard statements and has multiple statements. Please check and raise problem task to JM.
+alertIfstdReferenceIsNotPresent=Please check whether the reference should be replaced with the standard allowed reference.
+raiseQueryIfcharcountExceeds3300=Character count in text exceeds 3,300. Please check.
+queryForMorethan10References=<comment message="Plant Disease Note may have maximum of ten references. Please omit extra references."></comment>
+alertForDuplicateCitations=Reference citation is repeated in this occurrence. Please delete the duplicated one.
+SuggestionText=Delete the country name “USA” for all the affiliations if the country name is USA for the affiliation for which the country name is missing in the input.
+queryForIdenticalDoiPresent=References %s contain identical information. Please check and provide the correct reference or delete the duplicate reference. If the duplicate is deleted, renumber the reference list as needed and update all citations in the text.
+queryForDAS=The Data Availability Statement was deleted since it should not be included as per Frontiers\u2019 &lt;link id='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#data-availability-statement' tooltip='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#data-availability-statement'&gt;guidelines&lt;/link&gt; for this Article Type. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA83' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA83'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA83&lt;/link&gt;
+queryForEthics=The Ethics Statement was deleted since it should not be included as per Frontiers\u2019 guidelines for this Article Type. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA96' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA96'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA96&lt;/link&gt;
+alertIfmoreThan2tableand1Fig=Resource Announcements are limited to 2 tables and 1 figure. Please check.
+alertIfmoreThan2table=Resource Announcements are limited to 2 tables. Please check.
+alertIfmoreThan1fig=Resource Announcements are limited to 1 figure. Please check.
+wordCountInFullArticleExceptIgnoredPars_1=Note to APS: Plant Health Brief is limited to 1,000 words. Please check.
+wordCountInFullArticleExceptIgnoredPars_2=Note to APS: Short Communication is limited to 3,000 words. Please check.
+wordCountInFullArticleExceptIgnoredPars_3=Note to APS: Meeting review is limited to 6,000 words. Please check.
+ContentForParaCorrection=The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+QueryForParaContentInsertion=Please note that the COI information provided for no conflict of interest has been captured in standard format.
+queryForMissingAbstract=BA: Abstract in additional language is required as per JSLD.
+QueryForMissingKeywordsInarticle=Please provide 6 to 10 keywords for your chapter.
+UncitedCommentWithCitationInMessageForBox=%s %s %s not been mentioned in the article, please add a citation within the text. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA74' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA74 '&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA74 &lt;/link&gt;
+suggestionForOutOfOrderList=As per style, order of major headings should be 'Results, Discussion, Materials and Methods' or 'Results and Discussion, Materials and Methods'. Please ensure that correct order and correct phrase are followed.
+AbstractWordsOfCountMoreThan250=Note to APS: Abstract is limited to 250 words. Please check.
+AlertforCOIpreInSec=COI statement should be included in fnconflict parastyle alone. Please check and do the necessary changes.
+FnconflictPreOtherThanStdText=Text for COI does not match with the text provided in the XML order. Please check.
+standardtextforfnconflictFromMetaData=%s
+FnconflictStdTextForNo=The author(s) declare no conflict of interest.
+queryOverCreditTaxnomy=&lt;comment message="Author contributions are presented with your submitted CRediT information. Please check non-author contributions are correctly retained in the/an acknowledgement section."&gt;&lt;/comment&gt;
+alertIfCreditTaxnomyNotPresent=Credit taxonomy is missing for the authors "%s" in the XML order.
+stdQueryForSectionHead=Check if the section headers (i.e., section leveling) have been correctly captured. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA18' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA18/'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA18&lt;/link&gt;
+alertForGeoWordsCasing=Please check the casing of \u2018%s\u2019 and correct it consistently throughout the article.
+queryForKeywordCheck=<comment message="Keywords ensure the discoverability of your article in Google and PubMed searches. Please add or delete keywords (up to six) to improve discoverability."></comment>
+auQueryForAllMissingOrcid=Please note that as per style, the ORCID information is recommended for all authors. Hence, please provide ORCID for the authors \u0022%s\u0022. Refer to the site \u0022&lt;link id='https://orcid.org/'  tooltip='https://orcid.org/'&gt;https://orcid.org/&lt;/link&gt;\u0022 for more information about ORCID.
+alertForCompetingInterests=Competing interest is present in sectionb parastyle. Please check and delete if necessary.
+AlertForCorAuthor=Designator for the corresponding author is missing in the author group. Please check the corresponding author and include the name in the correspondence paragraph.
+alertForOtherThanLicensePara=Check whether the parastyle should be changed to \u201Clicense\u201D
+alertForWrongSupplementaryParaContent=Check the supplementary material text present and include role, if needed.
+commentForCheckingContent=&lt;comment message="Please check the inserted keywords are suitable."&gt;&lt;/comment&gt;
+alertMsgIfAbstractTextNotFound=Keywords and Abstract are missing in the article. Please check and include.
+queryForAuthorMisMatchForDiffToolTip=<comment message="We have noticed a discrepancy between the author list in the submission system and in the manuscript [for author%s %s (not listed in submission system/manuscript)]. For any authorship changes, Frontiers requires that all authors complete and sign the \u2018Authorship Change\u2019 form which is available at this\u00A0&lt;link id='https://www.frontiersin.org/files/pdf/Authorship_change_form_Societies.pdf'  tooltip='https://www.frontiersin.org/files/pdf/Authorship_change_form_Societies.pdf'&gt;link&lt;/link&gt;. Upload the file as a \u201CRelated Article\u201D file type together with your Author\u2019s Proof Corrections.."></comment>
+queryForAuthorIfBothSameForFseries=<comment message="We noticed a discrepancy between the author list in the submission system and the accepted manuscript (for authors xxx, yyy, zzz). You must complete and sign this &lt;link id='https://www.frontiersin.org/files/pdf/Authorship_change_form.pdf'  tooltip='https://www.frontiersin.org/files/pdf/Authorship_change_form.pdff'&gt;form&lt;/link&gt;, then upload the file as a \u201CRelated Article\u201D file type with your Author\u0027s Proof Corrections. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA3'  tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA3'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA3&lt;/link&gt;"></comment>
+FnconflictStdTextForNo=The author(s) declare no conflict of interest.
+keywordsParaMissing=Article doesn\u2019t have \u0022Keywords\u0022 but the order has keywords content. Please check.
+queryForFigTabSchemeBoxAlgorithm=<comment message="The caption of %s%s [%s] %s missing and must be provided. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA25' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA25'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA25&lt;/link&gt;"></comment>
+queryTOCitationPreesentInTheSecHead=&lt;comment message="Transfer %s citation%s to the main text, as citation%s %s not allowed in section headers. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA66' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA66'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA66&lt;/link&gt;"&gt;&lt;/comment&gt;
+suggetionForMissingExpansionOfInitial=Full name is not present for the authors "%s" in the metadata. Please check.
+queryAfterExpandingFNM=<comment message="Names OK as listed? We prefer full first names, although initials are fine if that is your preference."></comment>
+suggestionTextForDuplicateSnmFnm=Same surname is present for the authors "%s" with same initials. Please check and make the correction
+alertIfHyphenPresentInitialsReference=Only hyphen mismatch is present between the initials of the authors. Please check and insert "auibid" char style, if necessary.
+AlertForLinkPresentInDeletedEmail=Please delink the link applied for the deleted mail %s.
+AlertForIdenticalSurNameOrFirstNameMatch=Identical author forename\u002Fsurname present in this scenario. Please check.
+UncitedFigureAndTablequeryText=%s %s has not been mentioned in the article. Please add a citation within the text, noting that Figures and Tables must appear in sequence.
+queryForUncitedAppendix_2=%s%s has not been mentioned in the article. Please add a citation within the text.
+queryForFigAndTblPresentInAbstractIncludingRef=<comment message="Transfer the %s citation(s) to the main text, as citations are not allowed in the Abstract. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA67' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA67'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA67&lt;/link&gt;"></comment>
+alertForInviteAtBegin="Invited" is present in the beginning of the article title. Please check and update as per style.
+alertForInivitedAtEnd=(Invite) is present at the end of the article title. Please check and change to (invited).
+alertForHavingMoreThanOneGenusNames=There are different genus names with the same species present in the file. Please check.
+queryForFSeries=<comment message="Ensure that any Supplementary Material is correctly published at this link: &lt;link id='https://www.frontiersin.org/articles/%s/full#supplementary-material' tooltip='https://www.frontiersin.org/articles/%s/full#supplementary-material'&gt;https://www.frontiersin.org/articles/%s/full#supplementary-material&lt;/link&gt;. Only published supplementary files will be available to download at the link. If the link does not work, you can check the file(s) directly in the Production Forum; the published supplementary files appear in green. Please make sure all supplementary files are cited. Please also provide captions for these files, if relevant. If you have any corrections, provide new files and we will publish them in the Forum. Frontiers will deposit ALL supplementary files to FigShare and they will receive a DOI. Notify us of any previously deposited material. If the Supplementary Material files contain identifiable or copyright images, please keep in mind that it is your responsibility, as the author, to ensure you have permission to use the images in the article. Please check this &lt;link id='https://www.frontiersin.org/about/policies-and-publication-ethics#InclusionIdentifiableHumanData' tooltip='https://www.frontiersin.org/about/policies-and-publication-ethics#InclusionIdentifiableHumanData'&gt;link&lt;/link&gt; for information on author responsibilities and the publication images. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA47' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA47'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA47&lt;/link&gt;"></comment>
+quryForSociety=<comment message="Ensure that any Supplementary Material is correctly published at this link: &lt;link id='%s' tooltip='%s'&gt;%s&lt;/link&gt;. Only published supplementary files will be available to download at the link. If the link does not work, you can check the file(s) directly in the Production Forum; the published supplementary files appear in green. Please make sure all supplementary files are cited. Please also provide captions for these files, if relevant. If you have any corrections, provide new files and we will publish them in the Forum. Frontiers will deposit ALL supplementary files to FigShare and they will receive a DOI. Notify us of any previously deposited material. If the Supplementary Material files contain identifiable or copyright images, please keep in mind that it is your responsibility, as the author, to ensure you have permission to use the images in the article. Please check this &lt;link id='%s' tooltip='%s'&gt;link&lt;/link&gt; for information on author responsibilities and the publication images. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA47' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA47'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA47&lt;/link&gt;"></comment>
+SuggestionOnTblCitationPresence=%s is cited in the text, whereas the corresponding table is missing. Please check.
+SuggestionOnFigCitationPresence=%s is cited in the text, whereas the corresponding caption is missing. Please check.
+useClosedUpEndash_US="use closed-up emdash."
+useSpacedEndash_UK="use spaced endash."
+SmL_err_score=SmL: SmL changes will be incorporated only when the score is greater than 
+SmL_err_Tex=SmL: SmL will not process for TeX files
+SmL_err_rules=SmL: Error while implementing SmL rules
+SmL_err_Nimbledetails=SmL: Nimble details not available, LE level could not be published
+SmL_err_RMQ=SmL: Issue in connecting to RabbitMQ server, LE level could not be published
+SmL_err_location=Sml: Could not retrieve article location, LE level could not be published in Nimble
+SmL_err_url=SmL: Get Article location url did not work, LE level could not be published in Nimble
+SmL_err_ruleexceeds=SmL: Rule SmLToolResultsImplementationInACE exceeds more than 
+SmL_err_uploadAPI=SmL: Error occurred while processing request at upload create SmL API
+fnpresentaddParaMissing=the current affiliation content is not in fnpresentadd parastyle please check.
+queryForCitationMissingAfterAuthor=In the sentence beginning \u201C%s\u2026\u201D, the author name \u201C%s\u201D is cited, but the corresponding reference citation is missing. Please provide the complete details.
+alertForCitationPresentBeforeAuthor=Please check that the author name doesn\u2019t have superscript reference citation. Check if query is required.
+queryForCitationPresentBeforeAuthor=As per style reference should be cited after the author\u2019s name. Can the reference citation (%s) cited in the sentence beginning \u201C%s\u2026\u201D be moved to \u201C%s\u201D in the sentence beginning \u201C%s\u2026\u201D?
+alertForAuthorCountMismatch=Mismatch in author count between the citation and the reference list. Please check and amend changes wherever applicable.
+queryForEthicStatement=<comment message="If your article requires an Ethics statement, please confirm that the statement in this proof is correct. If this is not the latest version, please provide a revised Ethics statement. If your article contains identifiable human images, please check our Policies and Publication Ethics &lt;link id='%s' tooltip='%s'&gt;here&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA38' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA38'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA38&lt;/link&gt;"></comment>
+queryForEthicStatementFSeries=<comment message="If your article requires an Ethics statement, please confirm that the statement in this proof is correct. If this is not the latest version, please provide a revised Ethics statement. If your article contains identifiable human images, please check our Policies and Publication Ethics &lt;link id='https://www.frontiersin.org/guidelines/policies-and-publication-ethics' tooltip='https://www.frontiersin.org/guidelines/policies-and-publication-ethics&gt;here'&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA38' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA38'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA38&lt;/link&gt;"></comment>
+queryForRequiredElementsInArticle=The below mentioned elements are required as per the journal stylesheet; however, missing in the article. Please check and raise an author query.
+queryForInAppropriateSectionNo=<comment message="Please provide the section heading for %s %s."></comment>
+alertForSameInitialAndSameSurname=The initials and the surname of both the authors are same. Please check.
+authorSurnameQuery=The surname of both the authors are same. Please check.
+queryForBallotBox=<comment message="During submission you have mentioned that there is a conflict of interest. However the details of same is missing. Please provide the same."></comment>
+queryForTableFootnoteContentInsertion=<comment message="Standard journal style does not allow the use of unlabeled footnotes in tables; therefore, we have incorporated the footnote into the caption of Table %s. Please check."></comment>
+abstractRunOnFrontiers=In accordance with Frontiers\u2019 style, we have changed the Abstract text into a single paragraph. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA68' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA68'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA68&lt;/link&gt;
+alertForMultipleEditor=More than one associate editor is present in the order. Please check.
+alertForMultipleAffiliation=More than one affliation present for associate editor in the order. Please check.
+POForEOF_CommentsHaveListWordsOfAccessionForFseries=<comment message="1) Use the following template to provide a revised data statement, and include the link/name of the repository and accession numbers for data: \u201CThe data presented in the study are deposited in the XXX repository, accession number XXX\u201D; for more information regarding our data policies, refer to our &lt;link id='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#data-availability-statements' tooltip='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#data-availability-statements'&gt;guidelines&lt;/link&gt;. 2) Release data or provide confirmation of deposition. Note that your article cannot be published before we receive confirmation of data deposition. for more information regarding our data policies, refer to our &lt;link id='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#data-availability-statements' tooltip='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#data-availability-statements'&gt;guidelines&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA82' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA82'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA82&lt;/link&gt;"></comment>
+POForEOF_CommentsHaveListWordsOfAccessionForSociety=<comment message="1) Use the following template to provide a revised data statement, and include the link/name of the repository and accession numbers for data: \u201CThe data presented in the study are deposited in the XXX repository, accession number XXX\u201D; for more information regarding our data policies, refer to our &lt;link id='%s' tooltip='%s'&gt;guidelines&lt;/link&gt;. 2) Release data or provide confirmation of deposition. Note that your article cannot be published before we receive confirmation of data deposition. for more information regarding our data policies, refer to our &lt;link id='%s' tooltip='%s'&gt;guidelines&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA82' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA82'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA82&lt;/link&gt;"></comment>
+queryForDASForSociety=The Data Availability Statement was deleted since it should not be included as per Frontiers\u2019 &lt;link id='%s' tooltip='%s'&gt;guidelines&lt;/link&gt; for this Article Type. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA83' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA83'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA83&lt;/link&gt;
+SuggestionTextForAuthorContribution=Please check the Author contributions statement.
+SuggestionTextForCOIStmt=Please check the Conflict of interest statement.
+coiStdQuerySubjectCheckForSociety=Confirm if the text included in the Conflict of Interest statement is correct. Please do not suggest edits to the wording of the final sentence, as this is standard for Frontiers' journal style, per our &lt;link id='%s' tooltip='%s'&gt;guidelines&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA54' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA54'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA54&lt;/link&gt;
+queryForMissingMonthOrYear=For the ref%s %s %s is missing. Please provide.
+alertForMultipleParagraph=Multiple paragraph is not allowed for this section as per style. Please check and change it to one single paragraph.
+alertForFootnoteSorting=Reference citations are present in %s. Please check and make the references sequential, if necessary.
+alertForAuthorCountMismatch=Mismatch in author count between the citation and the reference list. Please check and amend changes wherever applicable.
+MixedCaseInKeyword=Please check and change the casing if necessary.
+alertForLicenseStatementIsPresentOtherParastyle=As per style, this text should be in \u201Clicense\u201D parastyle. Please check.
+alertForHavingPrefixToDoCapitalize=Please check and change the casing if necessary.
+commentForMatchingContentForFSeries=<comment message="Your article contains an invalid Data Availability statement. See our Materials and Data Policies &lt;link id='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#materials-and-data-policies' tooltip='https://www.frontiersin.org/guidelines/policies-and-publication-ethics#materials-and-data-policies'&gt;here&lt;/link&gt;, provide a suitable data statement based on the data type in your manuscript. Authors are required to make certain types of data available to readers at the time of publication in specific, stable, community-supported repositories. If your article contains mandatory data, the revised Data Availability statement should include the accession number(s) and a direct link/URL to this data. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA95' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA95'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA95&lt;/link&gt;"></comment>
+commentForMatchingContentForSociety=<comment message="Your article contains an invalid Data Availability statement. See our Materials and Data Policies &lt;link id='%s' tooltip='%s'&gt;here&lt;/link&gt;, provide a suitable data statement based on the data type in your manuscript. Authors are required to make certain types of data available to readers at the time of publication in specific, stable, community-supported repositories. If your article contains mandatory data, the revised Data Availability statement should include the accession number(s) and a direct link/URL to this data. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA95' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA95'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA95&lt;/link&gt;"></comment>
+alertForSuppVariant=Please check and change as per style.
+abstractNotInOrder=As per journal style, 'Abstract' should be structured and should have the following %s headings: %s. Please check and provide the same.
+singleAbstractNamedAsStructured=As per style, Abstract should be structured.
+alertForUnstructuredGivenInExcel=As per style, Abstract should be unstructured.
+alertByComparingCountOfAbstractSubHeadings=Abstract subheadings are not listed as per style. Please check.
+commentForBibCitation=&lt;comment message="Reference citation is mandatory inside the data availability statement. Can you please provide the citation and it\u0027s respective reference."&gt;&lt;/comment&gt;
+QueryForMissingDeclarationStatements=Please be noted that we have not been provided with author declaration statements for this article. Kindly check and provide as per style.
+queryForAuthorIfBothSameForSociety=<comment message="We noticed a discrepancy between the author list in the submission system and the accepted manuscript (for authors xxx, yyy, zzz). You must complete and sign this &lt;link id='https://www.frontiersin.org/files/pdf/Authorship_change_form_Societies.pdf'  tooltip='https://www.frontiersin.org/files/pdf/Authorship_change_form_Societies.pdf'&gt;form&lt;/link&gt;, then upload the file as a \u201CRelated Article\u201D file type with your Author\u0027s Proof Corrections. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA3'  tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA3'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA3&lt;/link&gt;"></comment>
+queryForMoreThan8Referencs=&lt;comment message="Plant Disease Notes may have a maximum of 8 references. Please remove extra references in both the text and references list."&gt;&lt;/comment&gt;
+coiStdQuerySubjectCheck=Confirm if the text included in the Conflict of Interest statement is correct. Please do not suggest edits to the wording of the final sentence, as this is standard for Frontiers' journal style, per our &lt;link id='%s' tooltip='%s'&gt;guidelines&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA54' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA54'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA54&lt;/link&gt;
+noDataInArticleAndMeta=Please provide the corresponding author details.
+correspondingAuthorDetailDiffersBetweenArticleAndMetadata=The corresponding author is mismatch with metadata and manuscript. We retained the corresponding author address given in the manuscript. Please check.
+nameAndMailIdfetchingFromMetadata=The corresponding author details are not given in the manuscript. We have taken it from the metadata. Kindly check.
+queryForMissingGermanTtlOrAbstrtOrKwd=&lt;comment message="Please provide the German %s for this article."&gt;&lt;/comment&gt;
+queryForMismatchedAuthorsInCOI=&lt;comment message="Please note that there is a discrepancy in the author name \u201C%s\u201D between the author group and the conflict of interest statement. Please check and confirm."&gt;&lt;/comment&gt;
+alertForCorAffiliationAddition=Please check the corresponding author details as per style and update if necessary.
+alertForAffiliationAlreadyPresent=Corresponding author details are present. Please check and insert the necessary information as per style.
+commentForMissingDASstatement=<comment message="As per style, Data Availability Statement is mandatory. Please provide the statement."></comment>
+queryForInAppropriateSectionNo=<comment message="Please provide the section heading for %s %s."></comment>
+queryForRunningHead=Please check and confirm the suggested running head.
+queryForSingleFigCitation=<comment message="%s %s %s missing from the text. Could you please indicate a suitable location for the %s?"></comment>
+QueryForNumberedUncitedReferencesWithoutSecHead=Please note that reference%s \u201C%s\u201D %s not cited in the text. Please cite it in the text and ensure sequential order or delete from the reference list.
+queryForcharstyleMissingWithRoleChk=Please provide %s in%s %s.
+QueryForLrhMoreThan70Characters=<comment message="LRH has more than 70 characters. Please review and reduce the characters if possible."></comment>
+SmL_err_docType=SmL: SmL should not edit the articles with doctype/article type
+queryForSingleFigCitation=<comment message="%s %s %s missing from the text. Could you please indicate a suitable location for the %s?"></comment>
+queryForFloatSequence=Please note that the callout for %s %s not in sequential order. As per style, the first callout of all %s must be in sequential order. Kindly edit the citation(s) to meet the requirement.
+alertForSameCityWithDifferentSate=The provided city name is present in more than one state name in USA. Please check and change accordingly.
+alertForSameCityWithDifferentCountry=The provided city name is present in more than one country name. Please check and change accordingly.
+queryForFloatSequence=Please note that the callout for %s %s not in sequential order. As per style, the first callout of all %s must be in sequential order. Kindly edit the citation(s) to meet the requirement.
+queryForFloatSequence=Please note that the callout for %s %s not in sequential order. As per style, the first callout of all %s must be in sequential order. Kindly edit the citation(s) to meet the requirement.
+commentIfDoiIsMissingInSTL=<comment message="Provide the DOI for "%s", if applicable. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA53' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA53'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA53&lt;/link&gt;"></comment>
+commentIfDoiIsMissingInSTL2=<comment message="Provide the DOI for \u0022%s\u0022, if applicable."></comment>
+queryForStandardStmtInsertion=A commercial affiliation is listed in your article, and mentioned in the COI as per the &lt;link id='%s' tooltip='%s'&gt;guidelines&lt;/link&gt;. Check that the amendments to the COI are fine. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA93' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA93'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA93&lt;/link&gt;
+AltertForFullAffiliationOrgMatch=The higlighted text is identical with the organisation present in affiliation. Please check and include the author name with the standard standard statement as per style.
+alertForCommercialTermsPresentInAffiliation=Commercial term is present in %s %s. Please check.
+queryForRemovalOfDOI=AUTHOR: doi numbers for publications older than 2002 are not required and have therefore been deleted in the %s.
+queryForMissingDOI=Please provide doi number for the %s.
+singleAuCoiStmtForNonCom=The author declares that they do not have any conflicts of interest.
+multiAuCoiStmtForNonCom=The authors declare that they do not have any conflicts of interest.
+commentForMissingCitation_ForThreeUncitated=%s were not cited in the text. We have inserted citations in the sentence beginning \u201C%s\u201D Please check and reposition if necessary.
+AlertMsgForMoreThanOneLeadContactFootnote=<comment message="As per style Lead contact footnote is allowed for only one author. Please check and amend as necessary."></comment>
+queryForVolcharstyleMiss=Please provide volume number for %s %s.
+queryForPageRangeMiss=Please provide page range for %s %s.
+queryForVolAndPageBothMiss=Please provide volume number and page range for %s %s.
+AlertMsgForMissingRefLblWithCitation=The reference list skipped from number "%s" to number "%s". Please carefully check all citations in the text and renumber them as needed.
+AlertMsgForMisingRefLblWithOutCitation=The reference list skipped from number "%s" to number "%s", and no citation for Ref. %s in the text.  Please carefully check all citations in the text and make revisions as needed.
+alertForSurnameOrForenameMissingForAuthor=Forename\u002Fsurname is missing in this Ref. %s. Please check and raise query.
+alertForRevTagMissingInOrder=Rev tag not found in the order file. Please check the accept date.
+AlertMsgForFullCapRefCitations=The expansion and abbreviation in square brackets should be added to the first citation of that reference and the other reference citations should contain the abbreviations followed by year.
+MissingPublisherCity=Please provide publisher\u2019s location in %s%s
+queryForNameDate="%s" is a preprint reference in the reference list, "Preprint" must be inserted next to the citation in the text, without a link; only the reference citation should have a link.
+QueryForMissingDegereeOfAuthor=Do you wish to provide qualifications for the author%s \"%s\"?
+alertMsgForAbbreviateAuthor=Please verify the author names both in the corresponding author and author group and act accordingly.
+alertMsgForSameSurname=The surname is similar for more than one author. Please check and add the corresponding author details as per style.
+alertMsgForEmailMiss=Email is missing for the corresponding author. Please check and act accordingly.
+SuggestionForTextFootnoteCitation=Text footnote citations are not allowed in tables. Please change the text footnotes into table footnotes (in citations and the text) and sequentially renumber them.
+alertForStandardStatementInsertionInCOI=The authors in the author group are missing in the COI statement. Therefore, the standard statement has been included. Please check.
+standardStatementContentForCOI=No potential conflicts of interest were disclosed by the other authors.
+alertForDuplicateSurNamePresent=Two authors have the same surname. Please check if author names in the author group are missing in the \u0022Disclosure of Potential Conflicts of Interest\u0022 statement. If missing, please add the following statement. \u0022No potential conflicts of interest were disclosed by the other authors.\u0022
+alertForAuthorNameMissingInCOI=The authors in the author group are missing in the COI statement. Please check.
+alertIfSectionaOtherthanIntroduction=Please check "Introduction" was not present in the first heading as per style.
+alertForTableFootnoteOrder=The order of table footnotes are not in standard hierarchy. Please check.
+moreThanOccurance=More than one reference has the same author name, so it is unable to identify the related article reference.
+notMatchCase=Author of related article was not present in the reference list. Please check.
+queryForFigTabSchemeBoxWithoutSub=<comment message="The caption of %s%s [%s] %s missing and must be provided."></comment>
+queryToNameDateCitationsInabstract=<comment message="Please note that reference citations are not permitted in the abstract as per AACR style. Hence, we have been deleted. Kindly check and renumber it sequentially."></comment>
+alertForAbstractCitationTxt=Reference citations present in the Abstract are not cited anywhere in the text. Please delete the citations, renumber them accordingly, and insert a query.
+queryForMeasurementUnits=Units of measurement have been changed here and elsewhere in the text from \u201CM\u201D to \u201CMol/L\u201D, and related units, such as \u201Cmmol/L\u201D and \u00B5mol/L,\u201D in figures, legends, and tables in accordance with journal style, derived from the &lt;i&gt;Council of Science Editors Manual for Authors, Editors, and Publishers&lt;/i&gt; and the Syst\u00E8me international d\u0027unit\u00E9s. Please note if these changes are not acceptable or appropriate in this instance.
+queryMessageForFigCaptionInText=<comment message="Ensure that all the figures, tables, and captions are correct, and that all figures are of the highest quality/resolution. You may upload improved figures to the Production Forum. If so, please describe in visual terms the exact changes(s) made to help us confirm that the updated version has been used in the finalized proof. Please note that figures and tables must be cited sequentially, per the &lt;link id'=https://www.frontiersin.org/guidelines/author-guidelines#figure-and-table-guidelines' tooltip='https://www.frontiersin.org/guidelines/author-guidelines#figure-and-table-guidelines'&gt;author guidelines&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA22' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA22/'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA22&lt;/link&gt;"></comment>
+queryMessageForFigCaptionInTextForSociety=<comment message=Ensure that all the figures, tables, and captions are correct, and that all figures are of the highest quality/resolution. You may upload improved figures to the Production Forum. If so, please describe in visual terms the exact changes(s) made to help us confirm that the updated version has been used in the finalized proof. Please note that figures and tables must be cited sequentially, per the &lt;link id='%s' tooltip='%s'&gt;author guidelines&lt;/link&gt;.></comment>
+queryMessageForTableCaptionInText=<comment message=Ensure that all the tables and captions are correct. Please note that tables must be cited sequentially, per the &lt;link id='https://www.frontiersin.org/guidelines/author-guidelines#figure-and-table-guidelines' tooltip='https://www.frontiersin.org/guidelines/author-guidelines#figure-and-table-guidelines'&gt;author guidelines&lt;/link&gt;. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA22' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA22/'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA22&lt;/link&gt;></comment>
+queryMessageForTableCaptionInTextForSociety=<comment message="Ensure that all the tables and captions are correct. Please note that tables must be cited sequentially, per the &lt;link id='%s' tooltip='%s'&gt;author guidelines&lt;/link&gt;."></comment>
+alertForCOITerm=Please check whether the negative COI declaration for remaining authors should be deleted.
+queryForChpNo=<comment message="Please check and confirm all cross references to other chapters throughout."></comment>
+queryForAffliationPresent=Affiliation should not allowed for this article type. Hence we have removed.
+AlertContentForSameAuthorNamesPresent=Please check the author name in the authors parastyle and abbreviated as per style.
+AlertForMoreThanOneDepartment=More than one '%s' is presented in the same affiliation. Please check and separate as per style accordingly.
+queryForAuthorContributionPresent=Author: The contribution(s) of each author are listed in the proof under the heading "Authors' Contributions." These contributions are derived from forms completed and signed off on by each individual author. If you make changes to these contributions, you must inform the affected author(s).
+queryForFigcaption=<comment message=Your article includes identifiable human image/s. Please check this &lt;link id='%s' tooltip='%s' &gt;link&lt;/link&gt; for author\u0027s responsibility for the publication of identifiable images. If permissions have been obtained, please confirm and we will add the following to your Ethics statement: Written informed consent was obtained from the individual(s) for the publication of any identifiable images or data included in this article. If the image/s was/were reproduced from an existing publication, please confirm and ensure this is reflected in the respective figure caption. If a valid statement/citation within the figure caption is not provided, we will blur the image. &lt;link id='https://www.frontiersin.org.cn/authors-proof-support/#QA97' tooltip='https://www.frontiersin.org.cn/authors-proof-support/#QA97'&gt;https://www.frontiersin.org.cn/authors-proof-support/#QA97&lt;/link&gt;></comment>
+suggestionForIncorrectOrderOfBackMatterHeadings=Back matter sections are not in order. Please check and change as per the hierarchy.
+sectionaBackMatterNew=^(?i:(?:(?:Author[\u2019\u2032\u0027\u2019s]{0,2} )?disclosure[\u2019\u2032\u0027\u2019s]{0,2}|Disclosure[\u2019\u2032\u0027\u2019s]{0,2}(?: statement| of Potential Conflicts of Interest)|(?:Conflicts?)(?:(?:\\p{Zs}?of)?\\p{Zs}?interests?)?|(?i:(?:Declaration of )?Competing(?: of)? interests?)|(?:Author[\u2019\u2032\u0027\u2019s]{0,2}\\p{Zs}Contribution[\u2019\u2032\u0027\u2019s]{0,2}))[\\-\\:\\;\\p{Zs}]{0,4})(?: ?(?:[\uFF00]|#)|$)
